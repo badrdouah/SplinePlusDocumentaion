@@ -191,6 +191,48 @@ retrieving and setting projection properties such as raycast length, offset, deb
   </table>
 
 
+  <a id="ElseForty_splineplus_api_ProjectionAPI_Get_Projection_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Get_Projection*"></a>
+  <h4 id="ElseForty_splineplus_api_ProjectionAPI_Get_Projection_SplinePlus_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Get_Projection(SplinePlus)">Get_Projection(SplinePlus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Get_Projection(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="ElseForty_splineplus_api_ProjectionAPI_Get_RaycastLength_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength*"></a>
   <h4 id="ElseForty_splineplus_api_ProjectionAPI_Get_RaycastLength_SplinePlus_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength(SplinePlus)">Get_RaycastLength(SplinePlus)</h4>
   <div class="markdown level1 summary"><p>Gets the length of raycasts used in the projection for the specified SplinePlus object.</p>
@@ -338,6 +380,38 @@ retrieving and setting projection properties such as raycast length, offset, deb
   </table>
 
 
+  <a id="ElseForty_splineplus_api_ProjectionAPI_Set_Projection_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Set_Projection*"></a>
+  <h4 id="ElseForty_splineplus_api_ProjectionAPI_Set_Projection_SplinePlus_System_Boolean_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Set_Projection(SplinePlus,System.Boolean)">Set_Projection(SplinePlus, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Set_Projection(SplinePlus splinePlus, bool isProjection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isProjection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="ElseForty_splineplus_api_ProjectionAPI_Set_RaycastLength_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength*"></a>
   <h4 id="ElseForty_splineplus_api_ProjectionAPI_Set_RaycastLength_SplinePlus_System_Single_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength(SplinePlus,System.Single)">Set_RaycastLength(SplinePlus, float)</h4>
   <div class="markdown level1 summary"><p>Sets the length of raycasts used in the projection for the specified SplinePlus object.</p>
@@ -367,41 +441,6 @@ retrieving and setting projection properties such as raycast length, offset, deb
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
         <td><span class="parametername">length</span></td>
         <td><p>The length of raycasts to set.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="ElseForty_splineplus_api_ProjectionAPI_Update_Branch_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Update_Branch*"></a>
-  <h4 id="ElseForty_splineplus_api_ProjectionAPI_Update_Branch_SplinePlus_System_Int32_" data-uid="ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus,System.Int32)">Update_Branch(SplinePlus, int)</h4>
-  <div class="markdown level1 summary"><p>Updates the positions of vertices and nodes along the specified branch of the spline by raycasting onto a surface below.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Update_Branch(SplinePlus splinePlus, int branchKey)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SplinePlus</span></td>
-        <td><span class="parametername">splinePlus</span></td>
-        <td><p>The SplinePlus component containing the spline.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">branchKey</span></td>
-        <td><p>The key of the branch to update.</p>
 </td>
       </tr>
     </tbody>

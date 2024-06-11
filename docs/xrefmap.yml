@@ -308,15 +308,15 @@ references:
   isSpec: "True"
   fullName: ElseForty.splineplus.api.BranchAPI.Set_Direction
   nameWithType: BranchAPI.Set_Direction
-- uid: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus,System.Int32,System.Boolean)
-  name: Update(SplinePlus, int, bool)
-  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Update_SplinePlus_System_Int32_System_Boolean_
-  commentId: M:ElseForty.splineplus.api.BranchAPI.Update(SplinePlus,System.Int32,System.Boolean)
-  name.vb: Update(SplinePlus, Integer, Boolean)
-  fullName: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus, int, bool)
-  fullName.vb: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus, Integer, Boolean)
-  nameWithType: BranchAPI.Update(SplinePlus, int, bool)
-  nameWithType.vb: BranchAPI.Update(SplinePlus, Integer, Boolean)
+- uid: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus,System.Int32)
+  name: Update(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Update_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Update(SplinePlus,System.Int32)
+  name.vb: Update(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus, Integer)
+  nameWithType: BranchAPI.Update(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Update(SplinePlus, Integer)
 - uid: ElseForty.splineplus.api.BranchAPI.Update*
   name: Update
   href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Update_
@@ -678,15 +678,12 @@ references:
   isSpec: "True"
   fullName: ElseForty.splineplus.api.NodeAPI.Set_Type
   nameWithType: NodeAPI.Set_Type
-- uid: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel,System.Boolean)
-  name: Update(SplinePlus, NodeModel, bool)
-  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Update_SplinePlus_NodeModel_System_Boolean_
-  commentId: M:ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel,System.Boolean)
-  name.vb: Update(SplinePlus, NodeModel, Boolean)
-  fullName: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus, NodeModel, bool)
-  fullName.vb: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus, NodeModel, Boolean)
-  nameWithType: NodeAPI.Update(SplinePlus, NodeModel, bool)
-  nameWithType.vb: NodeAPI.Update(SplinePlus, NodeModel, Boolean)
+- uid: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel)
+  name: Update(SplinePlus, NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Update_SplinePlus_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Update(SplinePlus, NodeModel)
 - uid: ElseForty.splineplus.api.NodeAPI.Update*
   name: Update
   href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Update_
@@ -726,6 +723,19 @@ references:
   isSpec: "True"
   fullName: ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals
   nameWithType: ProjectionAPI.Get_PreserveNormals
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_Projection(SplinePlus)
+  name: Get_Projection(SplinePlus)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_Projection_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Get_Projection(SplinePlus)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_Projection(SplinePlus)
+  nameWithType: ProjectionAPI.Get_Projection(SplinePlus)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_Projection*
+  name: Get_Projection
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_Projection_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Get_Projection
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_Projection
+  nameWithType: ProjectionAPI.Get_Projection
 - uid: ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength(SplinePlus)
   name: Get_RaycastLength(SplinePlus)
   href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_RaycastLength_SplinePlus_
@@ -787,6 +797,22 @@ references:
   isSpec: "True"
   fullName: ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals
   nameWithType: ProjectionAPI.Set_PreserveNormals
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_Projection(SplinePlus,System.Boolean)
+  name: Set_Projection(SplinePlus, bool)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_Projection_SplinePlus_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Set_Projection(SplinePlus,System.Boolean)
+  name.vb: Set_Projection(SplinePlus, Boolean)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_Projection(SplinePlus, bool)
+  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Set_Projection(SplinePlus, Boolean)
+  nameWithType: ProjectionAPI.Set_Projection(SplinePlus, bool)
+  nameWithType.vb: ProjectionAPI.Set_Projection(SplinePlus, Boolean)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_Projection*
+  name: Set_Projection
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_Projection_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Set_Projection
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_Projection
+  nameWithType: ProjectionAPI.Set_Projection
 - uid: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength(SplinePlus,System.Single)
   name: Set_RaycastLength(SplinePlus, float)
   href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_RaycastLength_SplinePlus_System_Single_
@@ -803,22 +829,6 @@ references:
   isSpec: "True"
   fullName: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength
   nameWithType: ProjectionAPI.Set_RaycastLength
-- uid: ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus,System.Int32)
-  name: Update_Branch(SplinePlus, int)
-  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Update_Branch_SplinePlus_System_Int32_
-  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus,System.Int32)
-  name.vb: Update_Branch(SplinePlus, Integer)
-  fullName: ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus, int)
-  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus, Integer)
-  nameWithType: ProjectionAPI.Update_Branch(SplinePlus, int)
-  nameWithType.vb: ProjectionAPI.Update_Branch(SplinePlus, Integer)
-- uid: ElseForty.splineplus.api.ProjectionAPI.Update_Branch*
-  name: Update_Branch
-  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Update_Branch_
-  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Update_Branch
-  isSpec: "True"
-  fullName: ElseForty.splineplus.api.ProjectionAPI.Update_Branch
-  nameWithType: ProjectionAPI.Update_Branch
 - uid: ElseForty.splineplus.api.SplinePlusAPI
   name: SplinePlusAPI
   href: api/ElseForty.splineplus.api.SplinePlusAPI.html
@@ -1083,15 +1093,12 @@ references:
   isSpec: "True"
   fullName: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid
   nameWithType: SplinePlusAPI.SnapToGrid
-- uid: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus,System.Boolean)
-  name: Update(SplinePlus, bool)
-  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Update_SplinePlus_System_Boolean_
-  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus,System.Boolean)
-  name.vb: Update(SplinePlus, Boolean)
-  fullName: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus, bool)
-  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus, Boolean)
-  nameWithType: SplinePlusAPI.Update(SplinePlus, bool)
-  nameWithType.vb: SplinePlusAPI.Update(SplinePlus, Boolean)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  name: Update(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Update_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  nameWithType: SplinePlusAPI.Update(SplinePlus)
 - uid: ElseForty.splineplus.api.SplinePlusAPI.Update*
   name: Update
   href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Update_
