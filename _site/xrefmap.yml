@@ -1,0 +1,1117 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ElseForty.splineplus.api
+  name: ElseForty.splineplus.api
+  href: api/ElseForty.splineplus.api.html
+  commentId: N:ElseForty.splineplus.api
+  fullName: ElseForty.splineplus.api
+  nameWithType: ElseForty.splineplus.api
+- uid: ElseForty.splineplus.api.BranchAPI
+  name: BranchAPI
+  href: api/ElseForty.splineplus.api.BranchAPI.html
+  commentId: T:ElseForty.splineplus.api.BranchAPI
+  fullName: ElseForty.splineplus.api.BranchAPI
+  nameWithType: BranchAPI
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index(SplinePlus,System.Int32,NodeModel,System.Int32,System.Boolean,System.Boolean)
+  name: Add_Node_At_Index(SplinePlus, int, NodeModel, int, bool, bool)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Node_At_Index_SplinePlus_System_Int32_NodeModel_System_Int32_System_Boolean_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index(SplinePlus,System.Int32,NodeModel,System.Int32,System.Boolean,System.Boolean)
+  name.vb: Add_Node_At_Index(SplinePlus, Integer, NodeModel, Integer, Boolean, Boolean)
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index(SplinePlus, int, NodeModel, int, bool, bool)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index(SplinePlus, Integer, NodeModel, Integer, Boolean, Boolean)
+  nameWithType: BranchAPI.Add_Node_At_Index(SplinePlus, int, NodeModel, int, bool, bool)
+  nameWithType.vb: BranchAPI.Add_Node_At_Index(SplinePlus, Integer, NodeModel, Integer, Boolean, Boolean)
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index*
+  name: Add_Node_At_Index
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Node_At_Index_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index
+  nameWithType: BranchAPI.Add_Node_At_Index
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning(SplinePlus,System.Int32,NodeModel,System.Boolean,System.Boolean)
+  name: Add_Node_Beginning(SplinePlus, int, NodeModel, bool, bool)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Node_Beginning_SplinePlus_System_Int32_NodeModel_System_Boolean_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning(SplinePlus,System.Int32,NodeModel,System.Boolean,System.Boolean)
+  name.vb: Add_Node_Beginning(SplinePlus, Integer, NodeModel, Boolean, Boolean)
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning(SplinePlus, int, NodeModel, bool, bool)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning(SplinePlus, Integer, NodeModel, Boolean, Boolean)
+  nameWithType: BranchAPI.Add_Node_Beginning(SplinePlus, int, NodeModel, bool, bool)
+  nameWithType.vb: BranchAPI.Add_Node_Beginning(SplinePlus, Integer, NodeModel, Boolean, Boolean)
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning*
+  name: Add_Node_Beginning
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Node_Beginning_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning
+  nameWithType: BranchAPI.Add_Node_Beginning
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Node_End(SplinePlus,System.Int32,NodeModel,System.Boolean,System.Boolean)
+  name: Add_Node_End(SplinePlus, int, NodeModel, bool, bool)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Node_End_SplinePlus_System_Int32_NodeModel_System_Boolean_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Add_Node_End(SplinePlus,System.Int32,NodeModel,System.Boolean,System.Boolean)
+  name.vb: Add_Node_End(SplinePlus, Integer, NodeModel, Boolean, Boolean)
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Node_End(SplinePlus, int, NodeModel, bool, bool)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Add_Node_End(SplinePlus, Integer, NodeModel, Boolean, Boolean)
+  nameWithType: BranchAPI.Add_Node_End(SplinePlus, int, NodeModel, bool, bool)
+  nameWithType.vb: BranchAPI.Add_Node_End(SplinePlus, Integer, NodeModel, Boolean, Boolean)
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Node_End*
+  name: Add_Node_End
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Node_End_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Add_Node_End
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Node_End
+  nameWithType: BranchAPI.Add_Node_End
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index(SplinePlus,System.Int32,NodeModel[],System.Int32,System.Boolean,System.Boolean)
+  name: Add_Nodes_At_Index(SplinePlus, int, NodeModel[], int, bool, bool)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Nodes_At_Index_SplinePlus_System_Int32_NodeModel___System_Int32_System_Boolean_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index(SplinePlus,System.Int32,NodeModel[],System.Int32,System.Boolean,System.Boolean)
+  name.vb: Add_Nodes_At_Index(SplinePlus, Integer, NodeModel(), Integer, Boolean, Boolean)
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index(SplinePlus, int, NodeModel[], int, bool, bool)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index(SplinePlus, Integer, NodeModel(), Integer, Boolean, Boolean)
+  nameWithType: BranchAPI.Add_Nodes_At_Index(SplinePlus, int, NodeModel[], int, bool, bool)
+  nameWithType.vb: BranchAPI.Add_Nodes_At_Index(SplinePlus, Integer, NodeModel(), Integer, Boolean, Boolean)
+- uid: ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index*
+  name: Add_Nodes_At_Index
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Add_Nodes_At_Index_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index
+  nameWithType: BranchAPI.Add_Nodes_At_Index
+- uid: ElseForty.splineplus.api.BranchAPI.BreakAt(SplinePlus,NodeModel)
+  name: BreakAt(SplinePlus, NodeModel)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_BreakAt_SplinePlus_NodeModel_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.BreakAt(SplinePlus,NodeModel)
+  fullName: ElseForty.splineplus.api.BranchAPI.BreakAt(SplinePlus, NodeModel)
+  nameWithType: BranchAPI.BreakAt(SplinePlus, NodeModel)
+- uid: ElseForty.splineplus.api.BranchAPI.BreakAt*
+  name: BreakAt
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_BreakAt_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.BreakAt
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.BreakAt
+  nameWithType: BranchAPI.BreakAt
+- uid: ElseForty.splineplus.api.BranchAPI.Create(SplinePlus)
+  name: Create(SplinePlus)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Create_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Create(SplinePlus)
+  fullName: ElseForty.splineplus.api.BranchAPI.Create(SplinePlus)
+  nameWithType: BranchAPI.Create(SplinePlus)
+- uid: ElseForty.splineplus.api.BranchAPI.Create*
+  name: Create
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Create_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Create
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Create
+  nameWithType: BranchAPI.Create
+- uid: ElseForty.splineplus.api.BranchAPI.Delete(SplinePlus,System.Int32)
+  name: Delete(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Delete_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Delete(SplinePlus,System.Int32)
+  name.vb: Delete(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Delete(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Delete(SplinePlus, Integer)
+  nameWithType: BranchAPI.Delete(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Delete(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Delete*
+  name: Delete
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Delete_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Delete
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Delete
+  nameWithType: BranchAPI.Delete
+- uid: ElseForty.splineplus.api.BranchAPI.Diffuse(SplinePlus,System.Int32)
+  name: Diffuse(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Diffuse_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Diffuse(SplinePlus,System.Int32)
+  name.vb: Diffuse(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Diffuse(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Diffuse(SplinePlus, Integer)
+  nameWithType: BranchAPI.Diffuse(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Diffuse(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Diffuse*
+  name: Diffuse
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Diffuse_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Diffuse
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Diffuse
+  nameWithType: BranchAPI.Diffuse
+- uid: ElseForty.splineplus.api.BranchAPI.FlipHandles(SplinePlus,System.Int32,BranchDirection_Enum)
+  name: FlipHandles(SplinePlus, int, BranchDirection_Enum)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_FlipHandles_SplinePlus_System_Int32_BranchDirection_Enum_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.FlipHandles(SplinePlus,System.Int32,BranchDirection_Enum)
+  name.vb: FlipHandles(SplinePlus, Integer, BranchDirection_Enum)
+  fullName: ElseForty.splineplus.api.BranchAPI.FlipHandles(SplinePlus, int, BranchDirection_Enum)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.FlipHandles(SplinePlus, Integer, BranchDirection_Enum)
+  nameWithType: BranchAPI.FlipHandles(SplinePlus, int, BranchDirection_Enum)
+  nameWithType.vb: BranchAPI.FlipHandles(SplinePlus, Integer, BranchDirection_Enum)
+- uid: ElseForty.splineplus.api.BranchAPI.FlipHandles*
+  name: FlipHandles
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_FlipHandles_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.FlipHandles
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.FlipHandles
+  nameWithType: BranchAPI.FlipHandles
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Direction(SplinePlus,System.Int32)
+  name: Get_Direction(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Direction_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Get_Direction(SplinePlus,System.Int32)
+  name.vb: Get_Direction(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Direction(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Get_Direction(SplinePlus, Integer)
+  nameWithType: BranchAPI.Get_Direction(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Get_Direction(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Direction*
+  name: Get_Direction
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Direction_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Get_Direction
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Direction
+  nameWithType: BranchAPI.Get_Direction
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Length(SplinePlus,System.Int32)
+  name: Get_Length(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Length_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Get_Length(SplinePlus,System.Int32)
+  name.vb: Get_Length(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Length(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Get_Length(SplinePlus, Integer)
+  nameWithType: BranchAPI.Get_Length(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Get_Length(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Length*
+  name: Get_Length
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Length_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Get_Length
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Length
+  nameWithType: BranchAPI.Get_Length
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Nodes(SplinePlus,System.Int32)
+  name: Get_Nodes(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Nodes_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Get_Nodes(SplinePlus,System.Int32)
+  name.vb: Get_Nodes(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Nodes(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Get_Nodes(SplinePlus, Integer)
+  nameWithType: BranchAPI.Get_Nodes(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Get_Nodes(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Nodes*
+  name: Get_Nodes
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Nodes_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Get_Nodes
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Nodes
+  nameWithType: BranchAPI.Get_Nodes
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Normals(SplinePlus,System.Int32)
+  name: Get_Normals(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Normals_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Get_Normals(SplinePlus,System.Int32)
+  name.vb: Get_Normals(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Normals(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Get_Normals(SplinePlus, Integer)
+  nameWithType: BranchAPI.Get_Normals(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Get_Normals(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Normals*
+  name: Get_Normals
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Normals_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Get_Normals
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Normals
+  nameWithType: BranchAPI.Get_Normals
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Tangents(SplinePlus,System.Int32)
+  name: Get_Tangents(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Tangents_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Get_Tangents(SplinePlus,System.Int32)
+  name.vb: Get_Tangents(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Tangents(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Get_Tangents(SplinePlus, Integer)
+  nameWithType: BranchAPI.Get_Tangents(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Get_Tangents(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Tangents*
+  name: Get_Tangents
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Tangents_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Get_Tangents
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Tangents
+  nameWithType: BranchAPI.Get_Tangents
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Vertices(SplinePlus,System.Int32)
+  name: Get_Vertices(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Vertices_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Get_Vertices(SplinePlus,System.Int32)
+  name.vb: Get_Vertices(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Vertices(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Get_Vertices(SplinePlus, Integer)
+  nameWithType: BranchAPI.Get_Vertices(SplinePlus, int)
+  nameWithType.vb: BranchAPI.Get_Vertices(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Get_Vertices*
+  name: Get_Vertices
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Get_Vertices_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Get_Vertices
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Get_Vertices
+  nameWithType: BranchAPI.Get_Vertices
+- uid: ElseForty.splineplus.api.BranchAPI.IsReversed(SplinePlus,System.Int32)
+  name: IsReversed(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_IsReversed_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.IsReversed(SplinePlus,System.Int32)
+  name.vb: IsReversed(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.IsReversed(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.IsReversed(SplinePlus, Integer)
+  nameWithType: BranchAPI.IsReversed(SplinePlus, int)
+  nameWithType.vb: BranchAPI.IsReversed(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.IsReversed*
+  name: IsReversed
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_IsReversed_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.IsReversed
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.IsReversed
+  nameWithType: BranchAPI.IsReversed
+- uid: ElseForty.splineplus.api.BranchAPI.Merge(SplinePlus,System.Int32,System.Int32)
+  name: Merge(SplinePlus, int, int)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Merge_SplinePlus_System_Int32_System_Int32_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Merge(SplinePlus,System.Int32,System.Int32)
+  name.vb: Merge(SplinePlus, Integer, Integer)
+  fullName: ElseForty.splineplus.api.BranchAPI.Merge(SplinePlus, int, int)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Merge(SplinePlus, Integer, Integer)
+  nameWithType: BranchAPI.Merge(SplinePlus, int, int)
+  nameWithType.vb: BranchAPI.Merge(SplinePlus, Integer, Integer)
+- uid: ElseForty.splineplus.api.BranchAPI.Merge*
+  name: Merge
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Merge_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Merge
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Merge
+  nameWithType: BranchAPI.Merge
+- uid: ElseForty.splineplus.api.BranchAPI.Selected(SplinePlus)
+  name: Selected(SplinePlus)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Selected_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Selected(SplinePlus)
+  fullName: ElseForty.splineplus.api.BranchAPI.Selected(SplinePlus)
+  nameWithType: BranchAPI.Selected(SplinePlus)
+- uid: ElseForty.splineplus.api.BranchAPI.Selected*
+  name: Selected
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Selected_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Selected
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Selected
+  nameWithType: BranchAPI.Selected
+- uid: ElseForty.splineplus.api.BranchAPI.Set_Direction(SplinePlus,System.Int32,BranchDirection_Enum)
+  name: Set_Direction(SplinePlus, int, BranchDirection_Enum)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Set_Direction_SplinePlus_System_Int32_BranchDirection_Enum_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Set_Direction(SplinePlus,System.Int32,BranchDirection_Enum)
+  name.vb: Set_Direction(SplinePlus, Integer, BranchDirection_Enum)
+  fullName: ElseForty.splineplus.api.BranchAPI.Set_Direction(SplinePlus, int, BranchDirection_Enum)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Set_Direction(SplinePlus, Integer, BranchDirection_Enum)
+  nameWithType: BranchAPI.Set_Direction(SplinePlus, int, BranchDirection_Enum)
+  nameWithType.vb: BranchAPI.Set_Direction(SplinePlus, Integer, BranchDirection_Enum)
+- uid: ElseForty.splineplus.api.BranchAPI.Set_Direction*
+  name: Set_Direction
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Set_Direction_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Set_Direction
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Set_Direction
+  nameWithType: BranchAPI.Set_Direction
+- uid: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus,System.Int32,System.Boolean)
+  name: Update(SplinePlus, int, bool)
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Update_SplinePlus_System_Int32_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.BranchAPI.Update(SplinePlus,System.Int32,System.Boolean)
+  name.vb: Update(SplinePlus, Integer, Boolean)
+  fullName: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus, int, bool)
+  fullName.vb: ElseForty.splineplus.api.BranchAPI.Update(SplinePlus, Integer, Boolean)
+  nameWithType: BranchAPI.Update(SplinePlus, int, bool)
+  nameWithType.vb: BranchAPI.Update(SplinePlus, Integer, Boolean)
+- uid: ElseForty.splineplus.api.BranchAPI.Update*
+  name: Update
+  href: api/ElseForty.splineplus.api.BranchAPI.html#ElseForty_splineplus_api_BranchAPI_Update_
+  commentId: Overload:ElseForty.splineplus.api.BranchAPI.Update
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.BranchAPI.Update
+  nameWithType: BranchAPI.Update
+- uid: ElseForty.splineplus.api.NodeAPI
+  name: NodeAPI
+  href: api/ElseForty.splineplus.api.NodeAPI.html
+  commentId: T:ElseForty.splineplus.api.NodeAPI
+  fullName: ElseForty.splineplus.api.NodeAPI
+  nameWithType: NodeAPI
+- uid: ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus,NodeModel,System.Single)
+  name: Chamfer(SplinePlus, NodeModel, float)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Chamfer_SplinePlus_NodeModel_System_Single_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus,NodeModel,System.Single)
+  name.vb: Chamfer(SplinePlus, NodeModel, Single)
+  fullName: ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus, NodeModel, float)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus, NodeModel, Single)
+  nameWithType: NodeAPI.Chamfer(SplinePlus, NodeModel, float)
+  nameWithType.vb: NodeAPI.Chamfer(SplinePlus, NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Chamfer*
+  name: Chamfer
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Chamfer_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Chamfer
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Chamfer
+  nameWithType: NodeAPI.Chamfer
+- uid: ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus,System.Collections.Generic.List{NodeModel})
+  name: Collapse(SplinePlus, List<NodeModel>)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Collapse_SplinePlus_System_Collections_Generic_List_NodeModel__
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus,System.Collections.Generic.List{NodeModel})
+  name.vb: Collapse(SplinePlus, List(Of NodeModel))
+  fullName: ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus, System.Collections.Generic.List<NodeModel>)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus, System.Collections.Generic.List(Of NodeModel))
+  nameWithType: NodeAPI.Collapse(SplinePlus, List<NodeModel>)
+  nameWithType.vb: NodeAPI.Collapse(SplinePlus, List(Of NodeModel))
+- uid: ElseForty.splineplus.api.NodeAPI.Collapse*
+  name: Collapse
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Collapse_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Collapse
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Collapse
+  nameWithType: NodeAPI.Collapse
+- uid: ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus,NodeModel)
+  name: Compound(SplinePlus, NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Compound_SplinePlus_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus,NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Compound(SplinePlus, NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Compound*
+  name: Compound
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Compound_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Compound
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Compound
+  nameWithType: NodeAPI.Compound
+- uid: ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus,NodeModel,NodeModel)
+  name: Connect(SplinePlus, NodeModel, NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Connect_SplinePlus_NodeModel_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus,NodeModel,NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus, NodeModel, NodeModel)
+  nameWithType: NodeAPI.Connect(SplinePlus, NodeModel, NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Connect*
+  name: Connect
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Connect_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Connect
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Connect
+  nameWithType: NodeAPI.Connect
+- uid: ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus,System.Int32,System.Single)
+  name: Create_At_Distance(SplinePlus, int, float)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Create_At_Distance_SplinePlus_System_Int32_System_Single_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus,System.Int32,System.Single)
+  name.vb: Create_At_Distance(SplinePlus, Integer, Single)
+  fullName: ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus, int, float)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus, Integer, Single)
+  nameWithType: NodeAPI.Create_At_Distance(SplinePlus, int, float)
+  nameWithType.vb: NodeAPI.Create_At_Distance(SplinePlus, Integer, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Create_At_Distance*
+  name: Create_At_Distance
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Create_At_Distance_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Create_At_Distance
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Create_At_Distance
+  nameWithType: NodeAPI.Create_At_Distance
+- uid: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3,Vector3,Vector3,NodeType_Enum)
+  name: Create(SplinePlus, Vector3, Vector3, Vector3, NodeType_Enum)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Create_SplinePlus_Vector3_Vector3_Vector3_NodeType_Enum_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3,Vector3,Vector3,NodeType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus, Vector3, Vector3, Vector3, NodeType_Enum)
+  nameWithType: NodeAPI.Create(SplinePlus, Vector3, Vector3, Vector3, NodeType_Enum)
+- uid: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3)
+  name: Create(SplinePlus, Vector3)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Create_SplinePlus_Vector3_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3)
+  fullName: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus, Vector3)
+  nameWithType: NodeAPI.Create(SplinePlus, Vector3)
+- uid: ElseForty.splineplus.api.NodeAPI.Create*
+  name: Create
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Create_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Create
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Create
+  nameWithType: NodeAPI.Create
+- uid: ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus,NodeModel)
+  name: Delete(SplinePlus, NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Delete_SplinePlus_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus,NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Delete(SplinePlus, NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Delete*
+  name: Delete
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Delete_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Delete
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Delete
+  nameWithType: NodeAPI.Delete
+- uid: ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus,NodeModel)
+  name: Diffuse(SplinePlus, NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Diffuse_SplinePlus_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus,NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Diffuse(SplinePlus, NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Diffuse*
+  name: Diffuse
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Diffuse_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Diffuse
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Diffuse
+  nameWithType: NodeAPI.Diffuse
+- uid: ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus,NodeModel,System.Boolean)
+  name: Duplicate(SplinePlus, NodeModel, bool)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Duplicate_SplinePlus_NodeModel_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus,NodeModel,System.Boolean)
+  name.vb: Duplicate(SplinePlus, NodeModel, Boolean)
+  fullName: ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus, NodeModel, bool)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus, NodeModel, Boolean)
+  nameWithType: NodeAPI.Duplicate(SplinePlus, NodeModel, bool)
+  nameWithType.vb: NodeAPI.Duplicate(SplinePlus, NodeModel, Boolean)
+- uid: ElseForty.splineplus.api.NodeAPI.Duplicate*
+  name: Duplicate
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Duplicate_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Duplicate
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Duplicate
+  nameWithType: NodeAPI.Duplicate
+- uid: ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  name: FlipHandles(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_FlipHandles_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  nameWithType: NodeAPI.FlipHandles(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus,System.Int32,System.Int32)
+  name: FlipHandles(SplinePlus, int, int)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_FlipHandles_SplinePlus_System_Int32_System_Int32_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus,System.Int32,System.Int32)
+  name.vb: FlipHandles(SplinePlus, Integer, Integer)
+  fullName: ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus, int, int)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus, Integer, Integer)
+  nameWithType: NodeAPI.FlipHandles(SplinePlus, int, int)
+  nameWithType.vb: NodeAPI.FlipHandles(SplinePlus, Integer, Integer)
+- uid: ElseForty.splineplus.api.NodeAPI.FlipHandles*
+  name: FlipHandles
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_FlipHandles_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.FlipHandles
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.FlipHandles
+  nameWithType: NodeAPI.FlipHandles
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  name: Get_Connected_Branches(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Connected_Branches_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  nameWithType: NodeAPI.Get_Connected_Branches(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches*
+  name: Get_Connected_Branches
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Connected_Branches_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches
+  nameWithType: NodeAPI.Get_Connected_Branches
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel,SpaceType_Enum)
+  name: Get_Handle_1_Position(NodeModel, SpaceType_Enum)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Handle_1_Position_NodeModel_SpaceType_Enum_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel,SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel, SpaceType_Enum)
+  nameWithType: NodeAPI.Get_Handle_1_Position(NodeModel, SpaceType_Enum)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position*
+  name: Get_Handle_1_Position
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Handle_1_Position_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position
+  nameWithType: NodeAPI.Get_Handle_1_Position
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel,SpaceType_Enum)
+  name: Get_Handle_2_Position(NodeModel, SpaceType_Enum)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Handle_2_Position_NodeModel_SpaceType_Enum_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel,SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel, SpaceType_Enum)
+  nameWithType: NodeAPI.Get_Handle_2_Position(NodeModel, SpaceType_Enum)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position*
+  name: Get_Handle_2_Position
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Handle_2_Position_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position
+  nameWithType: NodeAPI.Get_Handle_2_Position
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  name: Get_Normal(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Normal_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  nameWithType: NodeAPI.Get_Normal(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Normal*
+  name: Get_Normal
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Normal_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Normal
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Normal
+  nameWithType: NodeAPI.Get_Normal
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel,SpaceType_Enum)
+  name: Get_Position(NodeModel, SpaceType_Enum)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Position_NodeModel_SpaceType_Enum_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel,SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel, SpaceType_Enum)
+  nameWithType: NodeAPI.Get_Position(NodeModel, SpaceType_Enum)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Position*
+  name: Get_Position
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Position_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Position
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Position
+  nameWithType: NodeAPI.Get_Position
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  name: Get_Scale(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Scale_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  nameWithType: NodeAPI.Get_Scale(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Scale*
+  name: Get_Scale
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Scale_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Scale
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Scale
+  nameWithType: NodeAPI.Get_Scale
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  name: Get_Speed(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Speed_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  nameWithType: NodeAPI.Get_Speed(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Speed*
+  name: Get_Speed
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Speed_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Speed
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Speed
+  nameWithType: NodeAPI.Get_Speed
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  name: Get_Type(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Type_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  nameWithType: NodeAPI.Get_Type(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Type*
+  name: Get_Type
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Get_Type_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Type
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Type
+  nameWithType: NodeAPI.Get_Type
+- uid: ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  name: Is_Shared(NodeModel)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Is_Shared_NodeModel_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  nameWithType: NodeAPI.Is_Shared(NodeModel)
+- uid: ElseForty.splineplus.api.NodeAPI.Is_Shared*
+  name: Is_Shared
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Is_Shared_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Is_Shared
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Is_Shared
+  nameWithType: NodeAPI.Is_Shared
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel,Vector3,HandleType_Enum,SpaceType_Enum)
+  name: Set_Handle_Position(NodeModel, Vector3, HandleType_Enum, SpaceType_Enum)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Handle_Position_NodeModel_Vector3_HandleType_Enum_SpaceType_Enum_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel,Vector3,HandleType_Enum,SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel, Vector3, HandleType_Enum, SpaceType_Enum)
+  nameWithType: NodeAPI.Set_Handle_Position(NodeModel, Vector3, HandleType_Enum, SpaceType_Enum)
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position*
+  name: Set_Handle_Position
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Handle_Position_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Handle_Position
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position
+  nameWithType: NodeAPI.Set_Handle_Position
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus,NodeModel,System.Single)
+  name: Set_Normal(SplinePlus, NodeModel, float)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Normal_SplinePlus_NodeModel_System_Single_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus,NodeModel,System.Single)
+  name.vb: Set_Normal(SplinePlus, NodeModel, Single)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus, NodeModel, float)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus, NodeModel, Single)
+  nameWithType: NodeAPI.Set_Normal(SplinePlus, NodeModel, float)
+  nameWithType.vb: NodeAPI.Set_Normal(SplinePlus, NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Normal*
+  name: Set_Normal
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Normal_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Normal
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Normal
+  nameWithType: NodeAPI.Set_Normal
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel,System.Single)
+  name: Set_Scale(NodeModel, float)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Scale_NodeModel_System_Single_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel,System.Single)
+  name.vb: Set_Scale(NodeModel, Single)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel, float)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel, Single)
+  nameWithType: NodeAPI.Set_Scale(NodeModel, float)
+  nameWithType.vb: NodeAPI.Set_Scale(NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Scale*
+  name: Set_Scale
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Scale_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Scale
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Scale
+  nameWithType: NodeAPI.Set_Scale
+- uid: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel,System.Single)
+  name: Set_TargetSpeed(NodeModel, float)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_TargetSpeed_NodeModel_System_Single_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel,System.Single)
+  name.vb: Set_TargetSpeed(NodeModel, Single)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel, float)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel, Single)
+  nameWithType: NodeAPI.Set_TargetSpeed(NodeModel, float)
+  nameWithType.vb: NodeAPI.Set_TargetSpeed(NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed*
+  name: Set_TargetSpeed
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_TargetSpeed_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed
+  nameWithType: NodeAPI.Set_TargetSpeed
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel,NodeType_Enum)
+  name: Set_Type(NodeModel, NodeType_Enum)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Type_NodeModel_NodeType_Enum_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel,NodeType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel, NodeType_Enum)
+  nameWithType: NodeAPI.Set_Type(NodeModel, NodeType_Enum)
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Type*
+  name: Set_Type
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Set_Type_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Type
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Type
+  nameWithType: NodeAPI.Set_Type
+- uid: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel,System.Boolean)
+  name: Update(SplinePlus, NodeModel, bool)
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Update_SplinePlus_NodeModel_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel,System.Boolean)
+  name.vb: Update(SplinePlus, NodeModel, Boolean)
+  fullName: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus, NodeModel, bool)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus, NodeModel, Boolean)
+  nameWithType: NodeAPI.Update(SplinePlus, NodeModel, bool)
+  nameWithType.vb: NodeAPI.Update(SplinePlus, NodeModel, Boolean)
+- uid: ElseForty.splineplus.api.NodeAPI.Update*
+  name: Update
+  href: api/ElseForty.splineplus.api.NodeAPI.html#ElseForty_splineplus_api_NodeAPI_Update_
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Update
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.NodeAPI.Update
+  nameWithType: NodeAPI.Update
+- uid: ElseForty.splineplus.api.ProjectionAPI
+  name: ProjectionAPI
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html
+  commentId: T:ElseForty.splineplus.api.ProjectionAPI
+  fullName: ElseForty.splineplus.api.ProjectionAPI
+  nameWithType: ProjectionAPI
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_Offset(SplinePlus)
+  name: Get_Offset(SplinePlus)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_Offset_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Get_Offset(SplinePlus)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_Offset(SplinePlus)
+  nameWithType: ProjectionAPI.Get_Offset(SplinePlus)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_Offset*
+  name: Get_Offset
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_Offset_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Get_Offset
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_Offset
+  nameWithType: ProjectionAPI.Get_Offset
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals(SplinePlus)
+  name: Get_PreserveNormals(SplinePlus)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_PreserveNormals_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals(SplinePlus)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals(SplinePlus)
+  nameWithType: ProjectionAPI.Get_PreserveNormals(SplinePlus)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals*
+  name: Get_PreserveNormals
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_PreserveNormals_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals
+  nameWithType: ProjectionAPI.Get_PreserveNormals
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength(SplinePlus)
+  name: Get_RaycastLength(SplinePlus)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_RaycastLength_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength(SplinePlus)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength(SplinePlus)
+  nameWithType: ProjectionAPI.Get_RaycastLength(SplinePlus)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength*
+  name: Get_RaycastLength
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Get_RaycastLength_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength
+  nameWithType: ProjectionAPI.Get_RaycastLength
+- uid: ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes(SplinePlus,System.Int32)
+  name: Project_BranchNodes(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Project_BranchNodes_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes(SplinePlus,System.Int32)
+  name.vb: Project_BranchNodes(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes(SplinePlus, Integer)
+  nameWithType: ProjectionAPI.Project_BranchNodes(SplinePlus, int)
+  nameWithType.vb: ProjectionAPI.Project_BranchNodes(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes*
+  name: Project_BranchNodes
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Project_BranchNodes_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes
+  nameWithType: ProjectionAPI.Project_BranchNodes
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_Offset(SplinePlus,System.Single)
+  name: Set_Offset(SplinePlus, float)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_Offset_SplinePlus_System_Single_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Set_Offset(SplinePlus,System.Single)
+  name.vb: Set_Offset(SplinePlus, Single)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_Offset(SplinePlus, float)
+  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Set_Offset(SplinePlus, Single)
+  nameWithType: ProjectionAPI.Set_Offset(SplinePlus, float)
+  nameWithType.vb: ProjectionAPI.Set_Offset(SplinePlus, Single)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_Offset*
+  name: Set_Offset
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_Offset_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Set_Offset
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_Offset
+  nameWithType: ProjectionAPI.Set_Offset
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals(SplinePlus,System.Boolean)
+  name: Set_PreserveNormals(SplinePlus, bool)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_PreserveNormals_SplinePlus_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals(SplinePlus,System.Boolean)
+  name.vb: Set_PreserveNormals(SplinePlus, Boolean)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals(SplinePlus, bool)
+  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals(SplinePlus, Boolean)
+  nameWithType: ProjectionAPI.Set_PreserveNormals(SplinePlus, bool)
+  nameWithType.vb: ProjectionAPI.Set_PreserveNormals(SplinePlus, Boolean)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals*
+  name: Set_PreserveNormals
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_PreserveNormals_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals
+  nameWithType: ProjectionAPI.Set_PreserveNormals
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength(SplinePlus,System.Single)
+  name: Set_RaycastLength(SplinePlus, float)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_RaycastLength_SplinePlus_System_Single_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength(SplinePlus,System.Single)
+  name.vb: Set_RaycastLength(SplinePlus, Single)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength(SplinePlus, float)
+  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength(SplinePlus, Single)
+  nameWithType: ProjectionAPI.Set_RaycastLength(SplinePlus, float)
+  nameWithType.vb: ProjectionAPI.Set_RaycastLength(SplinePlus, Single)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength*
+  name: Set_RaycastLength
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Set_RaycastLength_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength
+  nameWithType: ProjectionAPI.Set_RaycastLength
+- uid: ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus,System.Int32)
+  name: Update_Branch(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Update_Branch_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus,System.Int32)
+  name.vb: Update_Branch(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.ProjectionAPI.Update_Branch(SplinePlus, Integer)
+  nameWithType: ProjectionAPI.Update_Branch(SplinePlus, int)
+  nameWithType.vb: ProjectionAPI.Update_Branch(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.ProjectionAPI.Update_Branch*
+  name: Update_Branch
+  href: api/ElseForty.splineplus.api.ProjectionAPI.html#ElseForty_splineplus_api_ProjectionAPI_Update_Branch_
+  commentId: Overload:ElseForty.splineplus.api.ProjectionAPI.Update_Branch
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.ProjectionAPI.Update_Branch
+  nameWithType: ProjectionAPI.Update_Branch
+- uid: ElseForty.splineplus.api.SplinePlusAPI
+  name: SplinePlusAPI
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html
+  commentId: T:ElseForty.splineplus.api.SplinePlusAPI
+  fullName: ElseForty.splineplus.api.SplinePlusAPI
+  nameWithType: SplinePlusAPI
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  name: Clear_Selection(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Clear_Selection_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  nameWithType: SplinePlusAPI.Clear_Selection(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection*
+  name: Clear_Selection
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Clear_Selection_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection
+  nameWithType: SplinePlusAPI.Clear_Selection
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  name: Create(Vector3)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Create_Vector3_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  nameWithType: SplinePlusAPI.Create(Vector3)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Create*
+  name: Create
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Create_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Create
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Create
+  nameWithType: SplinePlusAPI.Create
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus,System.String)
+  name: Deserialize(SplinePlus, string)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Deserialize_SplinePlus_System_String_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus,System.String)
+  name.vb: Deserialize(SplinePlus, String)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus, string)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus, String)
+  nameWithType: SplinePlusAPI.Deserialize(SplinePlus, string)
+  nameWithType.vb: SplinePlusAPI.Deserialize(SplinePlus, String)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Deserialize*
+  name: Deserialize
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Deserialize_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Deserialize
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Deserialize
+  nameWithType: SplinePlusAPI.Deserialize
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  name: Get_Branches(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Branches_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Branches(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches*
+  name: Get_Branches
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Branches_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Branches
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches
+  nameWithType: SplinePlusAPI.Get_Branches
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  name: Get_Closest__To_MousePosition(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Closest__To_MousePosition_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition*
+  name: Get_Closest__To_MousePosition
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Closest__To_MousePosition_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition
+  nameWithType: SplinePlusAPI.Get_Closest__To_MousePosition
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  name: Get_Nodes(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Nodes_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Nodes(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes*
+  name: Get_Nodes
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Nodes_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes
+  nameWithType: SplinePlusAPI.Get_Nodes
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  name: Get_Reference_Axis(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Reference_Axis_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis*
+  name: Get_Reference_Axis
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Reference_Axis_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis
+  nameWithType: SplinePlusAPI.Get_Reference_Axis
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  name: Get_Selected_Branch(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Selected_Branch_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch*
+  name: Get_Selected_Branch
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Selected_Branch_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch
+  nameWithType: SplinePlusAPI.Get_Selected_Branch
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  name: Get_Shared_Nodes(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Shared_Nodes_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes*
+  name: Get_Shared_Nodes
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Shared_Nodes_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes
+  nameWithType: SplinePlusAPI.Get_Shared_Nodes
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  name: Get_Smoothness(SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Smoothness_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Smoothness(SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness*
+  name: Get_Smoothness
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Smoothness_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness
+  nameWithType: SplinePlusAPI.Get_Smoothness
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,BranchModel,System.Single)
+  name: Get_SplineTransform(SplinePlus, BranchModel, float)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_SplineTransform_SplinePlus_BranchModel_System_Single_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,BranchModel,System.Single)
+  name.vb: Get_SplineTransform(SplinePlus, BranchModel, Single)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, float)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, Single)
+  nameWithType: SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, float)
+  nameWithType.vb: SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, Single)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,System.Int32,System.Single)
+  name: Get_SplineTransform(SplinePlus, int, float)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_SplineTransform_SplinePlus_System_Int32_System_Single_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,System.Int32,System.Single)
+  name.vb: Get_SplineTransform(SplinePlus, Integer, Single)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, int, float)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, Integer, Single)
+  nameWithType: SplinePlusAPI.Get_SplineTransform(SplinePlus, int, float)
+  nameWithType.vb: SplinePlusAPI.Get_SplineTransform(SplinePlus, Integer, Single)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform*
+  name: Get_SplineTransform
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Get_SplineTransform_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform
+  nameWithType: SplinePlusAPI.Get_SplineTransform
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus,SplinePlus)
+  name: Merge(SplinePlus, SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Merge_SplinePlus_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus,SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus, SplinePlus)
+  nameWithType: SplinePlusAPI.Merge(SplinePlus, SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Merge*
+  name: Merge
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Merge_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Merge
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Merge
+  nameWithType: SplinePlusAPI.Merge
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus,System.Int32)
+  name: Select_Branch(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Select_Branch_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus,System.Int32)
+  name.vb: Select_Branch(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus, Integer)
+  nameWithType: SplinePlusAPI.Select_Branch(SplinePlus, int)
+  nameWithType.vb: SplinePlusAPI.Select_Branch(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch*
+  name: Select_Branch
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Select_Branch_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Select_Branch
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch
+  nameWithType: SplinePlusAPI.Select_Branch
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus,NodeModel)
+  name: Select_Node(SplinePlus, NodeModel)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Select_Node_SplinePlus_NodeModel_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus,NodeModel)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus, NodeModel)
+  nameWithType: SplinePlusAPI.Select_Node(SplinePlus, NodeModel)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Node*
+  name: Select_Node
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Select_Node_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Select_Node
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Node
+  nameWithType: SplinePlusAPI.Select_Node
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Serializable(System.String,SplinePlus)
+  name: Serializable(string, SplinePlus)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Serializable_System_String_SplinePlus_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Serializable(System.String,SplinePlus)
+  name.vb: Serializable(String, SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Serializable(string, SplinePlus)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Serializable(String, SplinePlus)
+  nameWithType: SplinePlusAPI.Serializable(string, SplinePlus)
+  nameWithType.vb: SplinePlusAPI.Serializable(String, SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Serializable*
+  name: Serializable
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Serializable_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Serializable
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Serializable
+  nameWithType: SplinePlusAPI.Serializable
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus,RefAxis_Enum)
+  name: Set_Reference_Axis(SplinePlus, RefAxis_Enum)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Set_Reference_Axis_SplinePlus_RefAxis_Enum_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus,RefAxis_Enum)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus, RefAxis_Enum)
+  nameWithType: SplinePlusAPI.Set_Reference_Axis(SplinePlus, RefAxis_Enum)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis*
+  name: Set_Reference_Axis
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Set_Reference_Axis_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis
+  nameWithType: SplinePlusAPI.Set_Reference_Axis
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus,System.Int32)
+  name: Set_Smoothness(SplinePlus, int)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Set_Smoothness_SplinePlus_System_Int32_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus,System.Int32)
+  name.vb: Set_Smoothness(SplinePlus, Integer)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus, int)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus, Integer)
+  nameWithType: SplinePlusAPI.Set_Smoothness(SplinePlus, int)
+  nameWithType.vb: SplinePlusAPI.Set_Smoothness(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness*
+  name: Set_Smoothness
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Set_Smoothness_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness
+  nameWithType: SplinePlusAPI.Set_Smoothness
+- uid: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus,Camera)
+  name: SnapToGrid(SplinePlus, Camera)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_SnapToGrid_SplinePlus_Camera_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus,Camera)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus, Camera)
+  nameWithType: SplinePlusAPI.SnapToGrid(SplinePlus, Camera)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid*
+  name: SnapToGrid
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_SnapToGrid_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid
+  nameWithType: SplinePlusAPI.SnapToGrid
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus,System.Boolean)
+  name: Update(SplinePlus, bool)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Update_SplinePlus_System_Boolean_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus,System.Boolean)
+  name.vb: Update(SplinePlus, Boolean)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus, bool)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus, Boolean)
+  nameWithType: SplinePlusAPI.Update(SplinePlus, bool)
+  nameWithType.vb: SplinePlusAPI.Update(SplinePlus, Boolean)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Update*
+  name: Update
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Update_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Update
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Update
+  nameWithType: SplinePlusAPI.Update
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus,System.Single)
+  name: Weld(SplinePlus, float)
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Weld_SplinePlus_System_Single_
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus,System.Single)
+  name.vb: Weld(SplinePlus, Single)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus, float)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus, Single)
+  nameWithType: SplinePlusAPI.Weld(SplinePlus, float)
+  nameWithType.vb: SplinePlusAPI.Weld(SplinePlus, Single)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Weld*
+  name: Weld
+  href: api/ElseForty.splineplus.api.SplinePlusAPI.html#ElseForty_splineplus_api_SplinePlusAPI_Weld_
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Weld
+  isSpec: "True"
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Weld
+  nameWithType: SplinePlusAPI.Weld
