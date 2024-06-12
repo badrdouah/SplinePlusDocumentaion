@@ -9,7 +9,6 @@
     "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
     "changefreq": "weekly"
   },
-  "homepages": [],
   "source_base_path": "/Users/tempuser/Documents/GitHub/SplinePlusFull/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -19,8 +18,7 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "Resource",
@@ -30,7 +28,6 @@
           "relative_path": "Images/Branch.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -41,7 +38,6 @@
           "relative_path": "Images/Branch_ReturnSelection.gif"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -52,7 +48,6 @@
           "relative_path": "Images/DebugArea.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -63,7 +58,6 @@
           "relative_path": "Images/Else40.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -74,7 +68,6 @@
           "relative_path": "Images/Instalation.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -85,7 +78,6 @@
           "relative_path": "Images/Node.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +88,6 @@
           "relative_path": "Images/Node_Fuse.gif"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -107,7 +98,6 @@
           "relative_path": "Images/Node_FuseMode.gif"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -118,7 +108,6 @@
           "relative_path": "Images/Null_Branch.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,7 +118,6 @@
           "relative_path": "Images/SharedNode.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -140,7 +128,6 @@
           "relative_path": "Images/SplinePlus_AddNewBranch.gif"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -151,7 +138,6 @@
           "relative_path": "Images/SplinePlus_AddNodes.gif"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -162,7 +148,6 @@
           "relative_path": "Images/SplinePlus_AddSecondBranch.gif"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -173,7 +158,6 @@
           "relative_path": "Images/SplinePlus_Banner.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -184,7 +168,6 @@
           "relative_path": "Images/SplinePlus_Branch.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -195,7 +178,6 @@
           "relative_path": "Images/SplinePlus_Hierarchy.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -206,7 +188,6 @@
           "relative_path": "Images/SplinePlus_Inspector.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -217,7 +198,6 @@
           "relative_path": "Images/SplinePlus_Modifiers.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +208,6 @@
           "relative_path": "Images/SplinePlus_Node.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -239,7 +218,6 @@
           "relative_path": "Images/SplinePlus_Spline.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -247,11 +225,9 @@
       "source_relative_path": "Index.md",
       "output": {
         ".html": {
-          "relative_path": "Index.html",
-          "hash": "0gfBpelRF4J831g60GVuGftExugG0tYrkhAsXphERW0="
+          "relative_path": "Index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -259,11 +235,9 @@
       "source_relative_path": "Introduction/DrawYourFirstSpline.md",
       "output": {
         ".html": {
-          "relative_path": "Introduction/DrawYourFirstSpline.html",
-          "hash": "I8BmoAZfsE/CmWnAVWjmIpEkoA80Qubv2rabGuR3yIQ="
+          "relative_path": "Introduction/DrawYourFirstSpline.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -271,11 +245,9 @@
       "source_relative_path": "Introduction/GetStarted.md",
       "output": {
         ".html": {
-          "relative_path": "Introduction/GetStarted.html",
-          "hash": "HMl1eguVwOJHjTLp6Gv8wQIr9jGFenc238DNg9+mtPM="
+          "relative_path": "Introduction/GetStarted.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -283,11 +255,9 @@
       "source_relative_path": "Introduction/Instalation.md",
       "output": {
         ".html": {
-          "relative_path": "Introduction/Instalation.html",
-          "hash": "J4NxcHUx274qlyds0sOmAgxU0F6J6Zscd/hdMik0z7o="
+          "relative_path": "Introduction/Instalation.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -295,11 +265,9 @@
       "source_relative_path": "Introduction/Notions.md",
       "output": {
         ".html": {
-          "relative_path": "Introduction/Notions.html",
-          "hash": "CUZ+bgon1QlVReaLPO+eGvAXOqak7zYaR6XXJdn5R88="
+          "relative_path": "Introduction/Notions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -307,11 +275,112 @@
       "source_relative_path": "Introduction/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "Introduction/toc.html",
-          "hash": "CHwz17ToCHC7Tn77oadfMINIIKeUXQrjOckMJX8kREY="
+          "relative_path": "Introduction/toc.html"
+        },
+        ".json": {
+          "relative_path": "Introduction/toc.json"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.events.models.EventFork_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.events.models.EventFork_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.events.models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.events.models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.models.Axes_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.models.Axes_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.models.DeformationProcessing_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.models.DeformationProcessing_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.models.DeformationType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.models.DeformationType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.models.MirrorAxes_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.models.MirrorAxes_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.models.ScaleType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.models.ScaleType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.modifiers.models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.modifiers.models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.animation.models.AnimationType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.animation.models.AnimationType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.animation.models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.animation.models.html"
+        }
+      },
       "version": ""
     },
     {
@@ -319,11 +388,9 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.html",
-          "hash": "8xjNNhM4LhNHCS2QeQ7Aam7eHBxuCklz2kQjpjfSWNg="
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -331,11 +398,9 @@
       "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.html",
-          "hash": "YuMXR3Jkf3w95TsMZc96vb122bnHmf85kY50ffl6IKI="
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -343,11 +408,9 @@
       "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.html",
-          "hash": "iZcJ1GsFUSo4ygKBsfcEonDLWaLQVqv68iOu/vmqQl0="
+          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -355,11 +418,9 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.html",
-          "hash": "t+bGnEWvhfM+3tbeleNpgGp70r7BxmKTORhVJsJxv08="
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -367,11 +428,109 @@
       "source_relative_path": "api/ElseForty.splineplus.api.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.html",
-          "hash": "xY/YpxhNR2vaHsvHaVmNGePKqfGr4ZjT6ZR9yudAC2o="
+          "relative_path": "api/ElseForty.splineplus.api.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.BranchDirection_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.BranchDirection_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.HandleType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.HandleType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.NodeType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.NodeType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.ProjectionType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.ProjectionType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.RefAxis_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.RefAxis_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.SpaceType_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.SpaceType_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.User_Actions_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.User_Actions_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SearchDirection_Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SearchDirection_Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
       "version": ""
     },
     {
@@ -379,11 +538,12 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "86CPUdwG0ysR4mV0YW3e66khwI/SeQ8F3iaaq+BOtbA="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -391,65 +551,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "g1oth20RRS2ROqPVGmIbTVnHxrdBLyY8NQDUf4D+ecs="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
