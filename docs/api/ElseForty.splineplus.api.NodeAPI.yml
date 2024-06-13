@@ -1,0 +1,1418 @@
+### YamlMime:ManagedReference
+items:
+- uid: ElseForty.splineplus.api.NodeAPI
+  commentId: T:ElseForty.splineplus.api.NodeAPI
+  id: NodeAPI
+  parent: ElseForty.splineplus.api
+  children:
+  - ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus,NodeModel,System.Single)
+  - ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus,System.Collections.Generic.List{NodeModel})
+  - ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus,NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus,NodeModel,NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3)
+  - ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3,Vector3,Vector3,NodeType_Enum)
+  - ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus,System.Int32,System.Single)
+  - ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus,NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus,NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus,NodeModel,System.Boolean)
+  - ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus,System.Int32,System.Int32)
+  - ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel,SpaceType_Enum)
+  - ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel,SpaceType_Enum)
+  - ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel,SpaceType_Enum)
+  - ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  - ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel,Vector3,HandleType_Enum,SpaceType_Enum)
+  - ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus,NodeModel,System.Single)
+  - ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel,System.Single)
+  - ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel,System.Single)
+  - ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel,NodeType_Enum)
+  - ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel)
+  langs:
+  - csharp
+  - vb
+  name: NodeAPI
+  nameWithType: NodeAPI
+  fullName: ElseForty.splineplus.api.NodeAPI
+  type: Class
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: NodeAPI
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 15
+  namespace: ElseForty.splineplus.api
+  summary: >-
+    Provides methods for manipulating nodes in a SplinePlus object, including retrieving selected nodes, creating new nodes,
+
+    updating node positions, setting node positions, and chamfering nodes.
+  example: []
+  syntax:
+    content: public class NodeAPI
+    content.vb: Public Class NodeAPI
+  inheritance:
+  - System.Object
+- uid: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Update(SplinePlus,NodeModel)
+  id: Update(SplinePlus,NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Update(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Update(SplinePlus, NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Update(SplinePlus, NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Update
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 28
+  namespace: ElseForty.splineplus.api
+  summary: Updates the branches connected to the specified node in the given SplinePlus object.
+  example: []
+  syntax:
+    content: public static void Update(SplinePlus splinePlus, NodeModel node)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the node and its connected branches.
+    - id: node
+      type: Global.NodeModel
+      description: The node whose connected branches need to be updated.
+    content.vb: Public Shared Sub Update(splinePlus As SplinePlus, node As NodeModel)
+  overload: ElseForty.splineplus.api.NodeAPI.Update*
+- uid: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3,Vector3,Vector3,NodeType_Enum)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3,Vector3,Vector3,NodeType_Enum)
+  id: Create(SplinePlus,Vector3,Vector3,Vector3,NodeType_Enum)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Create(SplinePlus, Vector3, Vector3, Vector3, NodeType_Enum)
+  nameWithType: NodeAPI.Create(SplinePlus, Vector3, Vector3, Vector3, NodeType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus, Vector3, Vector3, Vector3, NodeType_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Create
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 49
+  namespace: ElseForty.splineplus.api
+  summary: Creates a new node in the spline.
+  example: []
+  syntax:
+    content: public static NodeModel Create(SplinePlus splinePlus, Vector3 nodeWorldPos, Vector3 firstHandleLocalPos, Vector3 secondHandleLocalPos, NodeType_Enum nodeType = null)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus component to which the node belongs.
+    - id: nodeWorldPos
+      type: Global.Vector3
+      description: The world position of the node.
+    - id: firstHandleLocalPos
+      type: Global.Vector3
+      description: The local position of the first handle relative to the node.
+    - id: secondHandleLocalPos
+      type: Global.Vector3
+      description: The local position of the second handle relative to the node.
+    - id: nodeType
+      type: Global.NodeType_Enum
+      description: The type of the node. Default is NodeType_Enum.Smooth.
+    return:
+      type: Global.NodeModel
+      description: The created NodeModel instance.
+    content.vb: Public Shared Function Create(splinePlus As SplinePlus, nodeWorldPos As Vector3, firstHandleLocalPos As Vector3, secondHandleLocalPos As Vector3, nodeType As NodeType_Enum = Nothing) As NodeModel
+  overload: ElseForty.splineplus.api.NodeAPI.Create*
+- uid: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Create(SplinePlus,Vector3)
+  id: Create(SplinePlus,Vector3)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Create(SplinePlus, Vector3)
+  nameWithType: NodeAPI.Create(SplinePlus, Vector3)
+  fullName: ElseForty.splineplus.api.NodeAPI.Create(SplinePlus, Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Create
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 84
+  namespace: ElseForty.splineplus.api
+  summary: Creates a new node in the specified spline.
+  example: []
+  syntax:
+    content: public static NodeModel Create(SplinePlus splinePlus, Vector3 nodeWorldPos)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The spline to create the node in.
+    - id: nodeWorldPos
+      type: Global.Vector3
+      description: The world position of the node.
+    return:
+      type: Global.NodeModel
+      description: The created node.
+    content.vb: Public Shared Function Create(splinePlus As SplinePlus, nodeWorldPos As Vector3) As NodeModel
+  overload: ElseForty.splineplus.api.NodeAPI.Create*
+- uid: ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus,System.Int32,System.Single)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus,System.Int32,System.Single)
+  id: Create_At_Distance(SplinePlus,System.Int32,System.Single)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Create_At_Distance(SplinePlus, int, float)
+  nameWithType: NodeAPI.Create_At_Distance(SplinePlus, int, float)
+  fullName: ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus, int, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Create_At_Distance
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 120
+  namespace: ElseForty.splineplus.api
+  summary: Creates a new node at a specific distance along the specified branch in the given SplinePlus object.
+  example: []
+  syntax:
+    content: public static NodeModel Create_At_Distance(SplinePlus splinePlus, int branchKey, float distance)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the branch.
+    - id: branchKey
+      type: System.Int32
+      description: The key of the branch on which to create the node.
+    - id: distance
+      type: System.Single
+      description: The distance along the branch where the new node will be created.
+    return:
+      type: Global.NodeModel
+      description: The newly created NodeModel object.
+    content.vb: Public Shared Function Create_At_Distance(splinePlus As SplinePlus, branchKey As Integer, distance As Single) As NodeModel
+  overload: ElseForty.splineplus.api.NodeAPI.Create_At_Distance*
+  nameWithType.vb: NodeAPI.Create_At_Distance(SplinePlus, Integer, Single)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Create_At_Distance(SplinePlus, Integer, Single)
+  name.vb: Create_At_Distance(SplinePlus, Integer, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel,SpaceType_Enum)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel,SpaceType_Enum)
+  id: Get_Position(NodeModel,SpaceType_Enum)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Position(NodeModel, SpaceType_Enum)
+  nameWithType: NodeAPI.Get_Position(NodeModel, SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Position(NodeModel, SpaceType_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Position
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 178
+  namespace: ElseForty.splineplus.api
+  summary: Gets the position of the specified node based on the provided space type.
+  example: []
+  syntax:
+    content: public static Vector3 Get_Position(NodeModel node, SpaceType_Enum spaceType)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The NodeModel object from which to get the position.
+    - id: spaceType
+      type: Global.SpaceType_Enum
+      description: The space in which the position is requested (local or world).
+    return:
+      type: Global.Vector3
+      description: The position of the node.
+    content.vb: Public Shared Function Get_Position(node As NodeModel, spaceType As SpaceType_Enum) As Vector3
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Position*
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel,Vector3,HandleType_Enum,SpaceType_Enum)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel,Vector3,HandleType_Enum,SpaceType_Enum)
+  id: Set_Handle_Position(NodeModel,Vector3,HandleType_Enum,SpaceType_Enum)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_Handle_Position(NodeModel, Vector3, HandleType_Enum, SpaceType_Enum)
+  nameWithType: NodeAPI.Set_Handle_Position(NodeModel, Vector3, HandleType_Enum, SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position(NodeModel, Vector3, HandleType_Enum, SpaceType_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_Handle_Position
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 193
+  namespace: ElseForty.splineplus.api
+  summary: Sets the position of a handle on a node.
+  example: []
+  syntax:
+    content: public static void Set_Handle_Position(NodeModel node, Vector3 position, HandleType_Enum handleType, SpaceType_Enum spaceType)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node to set the handle position on.
+    - id: position
+      type: Global.Vector3
+      description: The new position of the handle.
+    - id: handleType
+      type: Global.HandleType_Enum
+      description: The type of handle to set the position for.
+    - id: spaceType
+      type: Global.SpaceType_Enum
+      description: The coordinate space to use for setting the position.
+    content.vb: Public Shared Sub Set_Handle_Position(node As NodeModel, position As Vector3, handleType As HandleType_Enum, spaceType As SpaceType_Enum)
+  overload: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position*
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel,SpaceType_Enum)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel,SpaceType_Enum)
+  id: Get_Handle_1_Position(NodeModel,SpaceType_Enum)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Handle_1_Position(NodeModel, SpaceType_Enum)
+  nameWithType: NodeAPI.Get_Handle_1_Position(NodeModel, SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position(NodeModel, SpaceType_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Handle_1_Position
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 267
+  namespace: ElseForty.splineplus.api
+  summary: Gets the position of the first handle (point1) of the specified node based on the provided space type.
+  example: []
+  syntax:
+    content: public static Vector3 Get_Handle_1_Position(NodeModel node, SpaceType_Enum spaceType)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The NodeModel object from which to get the first handle's position.
+    - id: spaceType
+      type: Global.SpaceType_Enum
+      description: The space in which the position is requested (local or world).
+    return:
+      type: Global.Vector3
+      description: The position of the first handle (point1) of the node.
+    content.vb: Public Shared Function Get_Handle_1_Position(node As NodeModel, spaceType As SpaceType_Enum) As Vector3
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position*
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel,SpaceType_Enum)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel,SpaceType_Enum)
+  id: Get_Handle_2_Position(NodeModel,SpaceType_Enum)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Handle_2_Position(NodeModel, SpaceType_Enum)
+  nameWithType: NodeAPI.Get_Handle_2_Position(NodeModel, SpaceType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position(NodeModel, SpaceType_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Handle_2_Position
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 281
+  namespace: ElseForty.splineplus.api
+  summary: Gets the position of the second handle (point2) of the specified node based on the provided space type.
+  example: []
+  syntax:
+    content: public static Vector3 Get_Handle_2_Position(NodeModel node, SpaceType_Enum spaceType)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The NodeModel object from which to get the second handle's position.
+    - id: spaceType
+      type: Global.SpaceType_Enum
+      description: The space in which the position is requested (local or world).
+    return:
+      type: Global.Vector3
+      description: The position of the second handle (point2) of the node.
+    content.vb: Public Shared Function Get_Handle_2_Position(node As NodeModel, spaceType As SpaceType_Enum) As Vector3
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position*
+- uid: ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus,NodeModel,System.Single)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus,NodeModel,System.Single)
+  id: Chamfer(SplinePlus,NodeModel,System.Single)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Chamfer(SplinePlus, NodeModel, float)
+  nameWithType: NodeAPI.Chamfer(SplinePlus, NodeModel, float)
+  fullName: ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus, NodeModel, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Chamfer
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 294
+  namespace: ElseForty.splineplus.api
+  summary: Applies a chamfer effect to the specified node in the SplinePlus object, creating new nodes and branches as needed.
+  example: []
+  syntax:
+    content: public static void Chamfer(SplinePlus splinePlus, NodeModel node, float value)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the spline.
+    - id: node
+      type: Global.NodeModel
+      description: The node to apply the chamfer effect to.
+    - id: value
+      type: System.Single
+      description: The value determining the extent of the chamfer effect.
+    content.vb: Public Shared Sub Chamfer(splinePlus As SplinePlus, node As NodeModel, value As Single)
+  overload: ElseForty.splineplus.api.NodeAPI.Chamfer*
+  nameWithType.vb: NodeAPI.Chamfer(SplinePlus, NodeModel, Single)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Chamfer(SplinePlus, NodeModel, Single)
+  name.vb: Chamfer(SplinePlus, NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus,System.Collections.Generic.List{NodeModel})
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus,System.Collections.Generic.List{NodeModel})
+  id: Collapse(SplinePlus,System.Collections.Generic.List{NodeModel})
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Collapse(SplinePlus, List<NodeModel>)
+  nameWithType: NodeAPI.Collapse(SplinePlus, List<NodeModel>)
+  fullName: ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus, System.Collections.Generic.List<NodeModel>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Collapse
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 474
+  namespace: ElseForty.splineplus.api
+  summary: Connects the origin node with the target node in the specified spline, connecting their branches if necessary.
+  example: []
+  syntax:
+    content: public static void Collapse(SplinePlus splinePlus, List<NodeModel> nodes)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the spline.
+    - id: nodes
+      type: System.Collections.Generic.List{NodeModel}
+    content.vb: Public Shared Sub Collapse(splinePlus As SplinePlus, nodes As List(Of NodeModel))
+  overload: ElseForty.splineplus.api.NodeAPI.Collapse*
+  nameWithType.vb: NodeAPI.Collapse(SplinePlus, List(Of NodeModel))
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Collapse(SplinePlus, System.Collections.Generic.List(Of NodeModel))
+  name.vb: Collapse(SplinePlus, List(Of NodeModel))
+- uid: ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus,NodeModel,NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus,NodeModel,NodeModel)
+  id: Connect(SplinePlus,NodeModel,NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Connect(SplinePlus, NodeModel, NodeModel)
+  nameWithType: NodeAPI.Connect(SplinePlus, NodeModel, NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Connect(SplinePlus, NodeModel, NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Connect
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 574
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static int Connect(SplinePlus splinePlus, NodeModel node1, NodeModel node2)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    - id: node1
+      type: Global.NodeModel
+    - id: node2
+      type: Global.NodeModel
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Connect(splinePlus As SplinePlus, node1 As NodeModel, node2 As NodeModel) As Integer
+  overload: ElseForty.splineplus.api.NodeAPI.Connect*
+- uid: ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus,NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus,NodeModel)
+  id: Diffuse(SplinePlus,NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Diffuse(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Diffuse(SplinePlus, NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Diffuse(SplinePlus, NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Diffuse
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 631
+  namespace: ElseForty.splineplus.api
+  summary: Diffuses the specified node in the spline, creating a duplicate node on each connected branch and connecting them.
+  example: []
+  syntax:
+    content: public static List<NodeModel> Diffuse(SplinePlus splinePlus, NodeModel node)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the spline.
+    - id: node
+      type: Global.NodeModel
+      description: The node to be diffused.
+    return:
+      type: System.Collections.Generic.List{NodeModel}
+    content.vb: Public Shared Function Diffuse(splinePlus As SplinePlus, node As NodeModel) As List(Of NodeModel)
+  overload: ElseForty.splineplus.api.NodeAPI.Diffuse*
+- uid: ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus,NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus,NodeModel)
+  id: Compound(SplinePlus,NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Compound(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Compound(SplinePlus, NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Compound(SplinePlus, NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Compound
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 666
+  namespace: ElseForty.splineplus.api
+  summary: Compounds the specified node with the connected branches, merging them into a single branch.
+  example: []
+  syntax:
+    content: public static void Compound(SplinePlus splinePlus, NodeModel node)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the spline.
+    - id: node
+      type: Global.NodeModel
+      description: The node to be compounded.
+    content.vb: Public Shared Sub Compound(splinePlus As SplinePlus, node As NodeModel)
+  overload: ElseForty.splineplus.api.NodeAPI.Compound*
+- uid: ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus,NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus,NodeModel)
+  id: Delete(SplinePlus,NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Delete(SplinePlus, NodeModel)
+  nameWithType: NodeAPI.Delete(SplinePlus, NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Delete(SplinePlus, NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Delete
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 718
+  namespace: ElseForty.splineplus.api
+  summary: Deletes the specified node from the spline and removes it from all connected branches.
+  example: []
+  syntax:
+    content: public static void Delete(SplinePlus splinePlus, NodeModel nodeToRemove)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the spline.
+    - id: nodeToRemove
+      type: Global.NodeModel
+      description: The node to be deleted.
+    content.vb: Public Shared Sub Delete(splinePlus As SplinePlus, nodeToRemove As NodeModel)
+  overload: ElseForty.splineplus.api.NodeAPI.Delete*
+- uid: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel,System.Single)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel,System.Single)
+  id: Set_TargetSpeed(NodeModel,System.Single)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_TargetSpeed(NodeModel, float)
+  nameWithType: NodeAPI.Set_TargetSpeed(NodeModel, float)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_TargetSpeed
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 784
+  namespace: ElseForty.splineplus.api
+  summary: Sets the speed of movement for the specified node.
+  example: []
+  syntax:
+    content: public static void Set_TargetSpeed(NodeModel node, float speed)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node whose speed will be set.
+    - id: speed
+      type: System.Single
+      description: The speed value to set.
+    content.vb: Public Shared Sub Set_TargetSpeed(node As NodeModel, speed As Single)
+  overload: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed*
+  nameWithType.vb: NodeAPI.Set_TargetSpeed(NodeModel, Single)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed(NodeModel, Single)
+  name.vb: Set_TargetSpeed(NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel,System.Single)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel,System.Single)
+  id: Set_Scale(NodeModel,System.Single)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_Scale(NodeModel, float)
+  nameWithType: NodeAPI.Set_Scale(NodeModel, float)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_Scale
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 798
+  namespace: ElseForty.splineplus.api
+  summary: Sets the scale of the specified node.
+  example: []
+  syntax:
+    content: public static void Set_Scale(NodeModel node, float scale)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node whose scale will be set.
+    - id: scale
+      type: System.Single
+      description: The scale value to set.
+    content.vb: Public Shared Sub Set_Scale(node As NodeModel, scale As Single)
+  overload: ElseForty.splineplus.api.NodeAPI.Set_Scale*
+  nameWithType.vb: NodeAPI.Set_Scale(NodeModel, Single)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Set_Scale(NodeModel, Single)
+  name.vb: Set_Scale(NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  id: Get_Scale(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Scale(NodeModel)
+  nameWithType: NodeAPI.Get_Scale(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Scale(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Scale
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 813
+  namespace: ElseForty.splineplus.api
+  summary: Gets the scale of the specified node.
+  example: []
+  syntax:
+    content: public static float Get_Scale(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node to get the scale from.
+    return:
+      type: System.Single
+      description: The scale of the node.
+    content.vb: Public Shared Function Get_Scale(node As NodeModel) As Single
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Scale*
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  id: Get_Speed(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Speed(NodeModel)
+  nameWithType: NodeAPI.Get_Speed(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Speed(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Speed
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 824
+  namespace: ElseForty.splineplus.api
+  summary: Gets the speed of the specified node.
+  example: []
+  syntax:
+    content: public static float Get_Speed(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node to get the speed from.
+    return:
+      type: System.Single
+      description: The speed of the node.
+    content.vb: Public Shared Function Get_Speed(node As NodeModel) As Single
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Speed*
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus,NodeModel,System.Single)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus,NodeModel,System.Single)
+  id: Set_Normal(SplinePlus,NodeModel,System.Single)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_Normal(SplinePlus, NodeModel, float)
+  nameWithType: NodeAPI.Set_Normal(SplinePlus, NodeModel, float)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus, NodeModel, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_Normal
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 837
+  namespace: ElseForty.splineplus.api
+  summary: Sets the normal angle of the specified node and updates the connected branches' nodes accordingly.
+  example: []
+  syntax:
+    content: public static void Set_Normal(SplinePlus splinePlus, NodeModel node, float normalAngle)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus component.
+    - id: node
+      type: Global.NodeModel
+      description: The node to set the normal angle for.
+    - id: normalAngle
+      type: System.Single
+      description: The new normal angle value.
+    content.vb: Public Shared Sub Set_Normal(splinePlus As SplinePlus, node As NodeModel, normalAngle As Single)
+  overload: ElseForty.splineplus.api.NodeAPI.Set_Normal*
+  nameWithType.vb: NodeAPI.Set_Normal(SplinePlus, NodeModel, Single)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Set_Normal(SplinePlus, NodeModel, Single)
+  name.vb: Set_Normal(SplinePlus, NodeModel, Single)
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  id: Get_Normal(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Normal(NodeModel)
+  nameWithType: NodeAPI.Get_Normal(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Normal(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Normal
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 868
+  namespace: ElseForty.splineplus.api
+  summary: Gets the normal angle of the specified node.
+  example: []
+  syntax:
+    content: public static float Get_Normal(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node to get the normal angle from.
+    return:
+      type: System.Single
+      description: The normal angle value of the node.
+    content.vb: Public Shared Function Get_Normal(node As NodeModel) As Single
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Normal*
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel,NodeType_Enum)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel,NodeType_Enum)
+  id: Set_Type(NodeModel,NodeType_Enum)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_Type(NodeModel, NodeType_Enum)
+  nameWithType: NodeAPI.Set_Type(NodeModel, NodeType_Enum)
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Type(NodeModel, NodeType_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_Type
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 882
+  namespace: ElseForty.splineplus.api
+  summary: Sets the type of the specified node.
+  example: []
+  syntax:
+    content: public static void Set_Type(NodeModel node, NodeType_Enum newNodeType)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node whose type will be set.
+    - id: newNodeType
+      type: Global.NodeType_Enum
+      description: The new type for the node.
+    content.vb: Public Shared Sub Set_Type(node As NodeModel, newNodeType As NodeType_Enum)
+  overload: ElseForty.splineplus.api.NodeAPI.Set_Type*
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  id: Get_Type(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Type(NodeModel)
+  nameWithType: NodeAPI.Get_Type(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Type(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Type
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 894
+  namespace: ElseForty.splineplus.api
+  summary: Gets the type of the specified node.
+  example: []
+  syntax:
+    content: public static NodeType_Enum Get_Type(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node whose type will be retrieved.
+    return:
+      type: Global.NodeType_Enum
+      description: The type of the node.
+    content.vb: Public Shared Function Get_Type(node As NodeModel) As NodeType_Enum
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Type*
+- uid: ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  id: Is_Shared(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Is_Shared(NodeModel)
+  nameWithType: NodeAPI.Is_Shared(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Is_Shared(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Is_Shared
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 906
+  namespace: ElseForty.splineplus.api
+  summary: Checks if the specified node is shared among multiple branches.
+  example: []
+  syntax:
+    content: public static bool Is_Shared(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node to check.
+    return:
+      type: System.Boolean
+      description: True if the node is shared among multiple branches, false otherwise.
+    content.vb: Public Shared Function Is_Shared(node As NodeModel) As Boolean
+  overload: ElseForty.splineplus.api.NodeAPI.Is_Shared*
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  id: Get_Connected_Branches(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Connected_Branches(NodeModel)
+  nameWithType: NodeAPI.Get_Connected_Branches(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Connected_Branches
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 918
+  namespace: ElseForty.splineplus.api
+  summary: Retrieves a list of branch keys connected to the specified node.
+  example: []
+  syntax:
+    content: public static List<int> Get_Connected_Branches(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node to retrieve connected branches for.
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+      description: A list of branch keys connected to the node.
+    content.vb: Public Shared Function Get_Connected_Branches(node As NodeModel) As List(Of Integer)
+  overload: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches*
+- uid: ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus,NodeModel,System.Boolean)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus,NodeModel,System.Boolean)
+  id: Duplicate(SplinePlus,NodeModel,System.Boolean)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: Duplicate(SplinePlus, NodeModel, bool)
+  nameWithType: NodeAPI.Duplicate(SplinePlus, NodeModel, bool)
+  fullName: ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus, NodeModel, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Duplicate
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 924
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static NodeModel Duplicate(SplinePlus splinePlus, NodeModel originNode, bool copySharedNodeData = false)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    - id: originNode
+      type: Global.NodeModel
+    - id: copySharedNodeData
+      type: System.Boolean
+    return:
+      type: Global.NodeModel
+    content.vb: Public Shared Function Duplicate(splinePlus As SplinePlus, originNode As NodeModel, copySharedNodeData As Boolean = False) As NodeModel
+  overload: ElseForty.splineplus.api.NodeAPI.Duplicate*
+  nameWithType.vb: NodeAPI.Duplicate(SplinePlus, NodeModel, Boolean)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.Duplicate(SplinePlus, NodeModel, Boolean)
+  name.vb: Duplicate(SplinePlus, NodeModel, Boolean)
+- uid: ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus,System.Int32,System.Int32)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus,System.Int32,System.Int32)
+  id: FlipHandles(SplinePlus,System.Int32,System.Int32)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: FlipHandles(SplinePlus, int, int)
+  nameWithType: NodeAPI.FlipHandles(SplinePlus, int, int)
+  fullName: ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus, int, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: FlipHandles
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 963
+  namespace: ElseForty.splineplus.api
+  summary: Flips the handles of a node at the specified index in the branch identified by the given key.
+  example: []
+  syntax:
+    content: public static void FlipHandles(SplinePlus splinePlus, int branchKey, int NodeIndex)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the branch.
+    - id: branchKey
+      type: System.Int32
+      description: The key of the branch containing the node.
+    - id: NodeIndex
+      type: System.Int32
+      description: The index of the node within the branch.
+    content.vb: Public Shared Sub FlipHandles(splinePlus As SplinePlus, branchKey As Integer, NodeIndex As Integer)
+  overload: ElseForty.splineplus.api.NodeAPI.FlipHandles*
+  nameWithType.vb: NodeAPI.FlipHandles(SplinePlus, Integer, Integer)
+  fullName.vb: ElseForty.splineplus.api.NodeAPI.FlipHandles(SplinePlus, Integer, Integer)
+  name.vb: FlipHandles(SplinePlus, Integer, Integer)
+- uid: ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  commentId: M:ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  id: FlipHandles(NodeModel)
+  parent: ElseForty.splineplus.api.NodeAPI
+  langs:
+  - csharp
+  - vb
+  name: FlipHandles(NodeModel)
+  nameWithType: NodeAPI.FlipHandles(NodeModel)
+  fullName: ElseForty.splineplus.api.NodeAPI.FlipHandles(NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/NodeAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: FlipHandles
+    path: ../Assets/Runtime/SplinePlus/API/NodeAPI.cs
+    startLine: 988
+  namespace: ElseForty.splineplus.api
+  summary: Creates a new node with flipped handles based on the provided node, doesn't change the node provided
+  example: []
+  syntax:
+    content: public static NodeModel FlipHandles(NodeModel node)
+    parameters:
+    - id: node
+      type: Global.NodeModel
+      description: The node whose handles will be flipped.
+    return:
+      type: Global.NodeModel
+      description: A new NodeModel object with flipped handles.
+    content.vb: Public Shared Function FlipHandles(node As NodeModel) As NodeModel
+  overload: ElseForty.splineplus.api.NodeAPI.FlipHandles*
+references:
+- uid: ElseForty.splineplus.api
+  commentId: N:ElseForty.splineplus.api
+  href: ElseForty.html
+  name: ElseForty.splineplus.api
+  nameWithType: ElseForty.splineplus.api
+  fullName: ElseForty.splineplus.api
+  spec.csharp:
+  - uid: ElseForty
+    name: ElseForty
+    href: ElseForty.html
+  - name: .
+  - uid: ElseForty.splineplus
+    name: splineplus
+    href: ElseForty.splineplus.html
+  - name: .
+  - uid: ElseForty.splineplus.api
+    name: api
+    href: ElseForty.splineplus.api.html
+  spec.vb:
+  - uid: ElseForty
+    name: ElseForty
+    href: ElseForty.html
+  - name: .
+  - uid: ElseForty.splineplus
+    name: splineplus
+    href: ElseForty.splineplus.html
+  - name: .
+  - uid: ElseForty.splineplus.api
+    name: api
+    href: ElseForty.splineplus.api.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ElseForty.splineplus.api.NodeAPI.Update*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Update
+  href: ElseForty.splineplus.api.NodeAPI.Update.html#ElseForty_splineplus_api_NodeAPI_Update_SplinePlus_NodeModel_
+  name: Update
+  nameWithType: NodeAPI.Update
+  fullName: ElseForty.splineplus.api.NodeAPI.Update
+- uid: Global.SplinePlus
+  isExternal: true
+  name: SplinePlus
+  nameWithType: SplinePlus
+  fullName: SplinePlus
+- uid: Global.NodeModel
+  isExternal: true
+  name: NodeModel
+  nameWithType: NodeModel
+  fullName: NodeModel
+- uid: ElseForty.splineplus.api.NodeAPI.Create*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Create
+  href: ElseForty.splineplus.api.NodeAPI.Create.html#ElseForty_splineplus_api_NodeAPI_Create_SplinePlus_Vector3_Vector3_Vector3_NodeType_Enum_
+  name: Create
+  nameWithType: NodeAPI.Create
+  fullName: ElseForty.splineplus.api.NodeAPI.Create
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.NodeType_Enum
+  isExternal: true
+  name: NodeType_Enum
+  nameWithType: NodeType_Enum
+  fullName: NodeType_Enum
+- uid: ElseForty.splineplus.api.NodeAPI.Create_At_Distance*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Create_At_Distance
+  href: ElseForty.splineplus.api.NodeAPI.Create_At_Distance.html#ElseForty_splineplus_api_NodeAPI_Create_At_Distance_SplinePlus_System_Int32_System_Single_
+  name: Create_At_Distance
+  nameWithType: NodeAPI.Create_At_Distance
+  fullName: ElseForty.splineplus.api.NodeAPI.Create_At_Distance
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Position*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Position
+  href: ElseForty.splineplus.api.NodeAPI.Get_Position.html#ElseForty_splineplus_api_NodeAPI_Get_Position_NodeModel_SpaceType_Enum_
+  name: Get_Position
+  nameWithType: NodeAPI.Get_Position
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Position
+- uid: Global.SpaceType_Enum
+  isExternal: true
+  name: SpaceType_Enum
+  nameWithType: SpaceType_Enum
+  fullName: SpaceType_Enum
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Handle_Position
+  href: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position.html#ElseForty_splineplus_api_NodeAPI_Set_Handle_Position_NodeModel_Vector3_HandleType_Enum_SpaceType_Enum_
+  name: Set_Handle_Position
+  nameWithType: NodeAPI.Set_Handle_Position
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Handle_Position
+- uid: Global.HandleType_Enum
+  commentId: '!:Global.HandleType_Enum'
+  isExternal: true
+  name: HandleType_Enum
+  nameWithType: HandleType_Enum
+  fullName: HandleType_Enum
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position
+  href: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position.html#ElseForty_splineplus_api_NodeAPI_Get_Handle_1_Position_NodeModel_SpaceType_Enum_
+  name: Get_Handle_1_Position
+  nameWithType: NodeAPI.Get_Handle_1_Position
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position
+  href: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position.html#ElseForty_splineplus_api_NodeAPI_Get_Handle_2_Position_NodeModel_SpaceType_Enum_
+  name: Get_Handle_2_Position
+  nameWithType: NodeAPI.Get_Handle_2_Position
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position
+- uid: ElseForty.splineplus.api.NodeAPI.Chamfer*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Chamfer
+  href: ElseForty.splineplus.api.NodeAPI.Chamfer.html#ElseForty_splineplus_api_NodeAPI_Chamfer_SplinePlus_NodeModel_System_Single_
+  name: Chamfer
+  nameWithType: NodeAPI.Chamfer
+  fullName: ElseForty.splineplus.api.NodeAPI.Chamfer
+- uid: ElseForty.splineplus.api.NodeAPI.Collapse*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Collapse
+  href: ElseForty.splineplus.api.NodeAPI.Collapse.html#ElseForty_splineplus_api_NodeAPI_Collapse_SplinePlus_System_Collections_Generic_List_NodeModel__
+  name: Collapse
+  nameWithType: NodeAPI.Collapse
+  fullName: ElseForty.splineplus.api.NodeAPI.Collapse
+- uid: System.Collections.Generic.List{NodeModel}
+  commentId: T:System.Collections.Generic.List{NodeModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<NodeModel>
+  nameWithType: List<NodeModel>
+  fullName: System.Collections.Generic.List<NodeModel>
+  nameWithType.vb: List(Of NodeModel)
+  fullName.vb: System.Collections.Generic.List(Of NodeModel)
+  name.vb: List(Of NodeModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Global.NodeModel
+    name: NodeModel
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.NodeModel
+    name: NodeModel
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ElseForty.splineplus.api.NodeAPI.Connect*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Connect
+  href: ElseForty.splineplus.api.NodeAPI.Connect.html#ElseForty_splineplus_api_NodeAPI_Connect_SplinePlus_NodeModel_NodeModel_
+  name: Connect
+  nameWithType: NodeAPI.Connect
+  fullName: ElseForty.splineplus.api.NodeAPI.Connect
+- uid: ElseForty.splineplus.api.NodeAPI.Diffuse*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Diffuse
+  href: ElseForty.splineplus.api.NodeAPI.Diffuse.html#ElseForty_splineplus_api_NodeAPI_Diffuse_SplinePlus_NodeModel_
+  name: Diffuse
+  nameWithType: NodeAPI.Diffuse
+  fullName: ElseForty.splineplus.api.NodeAPI.Diffuse
+- uid: ElseForty.splineplus.api.NodeAPI.Compound*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Compound
+  href: ElseForty.splineplus.api.NodeAPI.Compound.html#ElseForty_splineplus_api_NodeAPI_Compound_SplinePlus_NodeModel_
+  name: Compound
+  nameWithType: NodeAPI.Compound
+  fullName: ElseForty.splineplus.api.NodeAPI.Compound
+- uid: ElseForty.splineplus.api.NodeAPI.Delete*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Delete
+  href: ElseForty.splineplus.api.NodeAPI.Delete.html#ElseForty_splineplus_api_NodeAPI_Delete_SplinePlus_NodeModel_
+  name: Delete
+  nameWithType: NodeAPI.Delete
+  fullName: ElseForty.splineplus.api.NodeAPI.Delete
+- uid: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed
+  href: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed.html#ElseForty_splineplus_api_NodeAPI_Set_TargetSpeed_NodeModel_System_Single_
+  name: Set_TargetSpeed
+  nameWithType: NodeAPI.Set_TargetSpeed
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Scale*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Scale
+  href: ElseForty.splineplus.api.NodeAPI.Set_Scale.html#ElseForty_splineplus_api_NodeAPI_Set_Scale_NodeModel_System_Single_
+  name: Set_Scale
+  nameWithType: NodeAPI.Set_Scale
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Scale
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Scale*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Scale
+  href: ElseForty.splineplus.api.NodeAPI.Get_Scale.html#ElseForty_splineplus_api_NodeAPI_Get_Scale_NodeModel_
+  name: Get_Scale
+  nameWithType: NodeAPI.Get_Scale
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Scale
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Speed*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Speed
+  href: ElseForty.splineplus.api.NodeAPI.Get_Speed.html#ElseForty_splineplus_api_NodeAPI_Get_Speed_NodeModel_
+  name: Get_Speed
+  nameWithType: NodeAPI.Get_Speed
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Speed
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Normal*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Normal
+  href: ElseForty.splineplus.api.NodeAPI.Set_Normal.html#ElseForty_splineplus_api_NodeAPI_Set_Normal_SplinePlus_NodeModel_System_Single_
+  name: Set_Normal
+  nameWithType: NodeAPI.Set_Normal
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Normal
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Normal*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Normal
+  href: ElseForty.splineplus.api.NodeAPI.Get_Normal.html#ElseForty_splineplus_api_NodeAPI_Get_Normal_NodeModel_
+  name: Get_Normal
+  nameWithType: NodeAPI.Get_Normal
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Normal
+- uid: ElseForty.splineplus.api.NodeAPI.Set_Type*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Set_Type
+  href: ElseForty.splineplus.api.NodeAPI.Set_Type.html#ElseForty_splineplus_api_NodeAPI_Set_Type_NodeModel_NodeType_Enum_
+  name: Set_Type
+  nameWithType: NodeAPI.Set_Type
+  fullName: ElseForty.splineplus.api.NodeAPI.Set_Type
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Type*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Type
+  href: ElseForty.splineplus.api.NodeAPI.Get_Type.html#ElseForty_splineplus_api_NodeAPI_Get_Type_NodeModel_
+  name: Get_Type
+  nameWithType: NodeAPI.Get_Type
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Type
+- uid: ElseForty.splineplus.api.NodeAPI.Is_Shared*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Is_Shared
+  href: ElseForty.splineplus.api.NodeAPI.Is_Shared.html#ElseForty_splineplus_api_NodeAPI_Is_Shared_NodeModel_
+  name: Is_Shared
+  nameWithType: NodeAPI.Is_Shared
+  fullName: ElseForty.splineplus.api.NodeAPI.Is_Shared
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches
+  href: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches.html#ElseForty_splineplus_api_NodeAPI_Get_Connected_Branches_NodeModel_
+  name: Get_Connected_Branches
+  nameWithType: NodeAPI.Get_Connected_Branches
+  fullName: ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<int>
+  nameWithType: List<int>
+  fullName: System.Collections.Generic.List<int>
+  nameWithType.vb: List(Of Integer)
+  fullName.vb: System.Collections.Generic.List(Of Integer)
+  name.vb: List(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ElseForty.splineplus.api.NodeAPI.Duplicate*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.Duplicate
+  href: ElseForty.splineplus.api.NodeAPI.Duplicate.html#ElseForty_splineplus_api_NodeAPI_Duplicate_SplinePlus_NodeModel_System_Boolean_
+  name: Duplicate
+  nameWithType: NodeAPI.Duplicate
+  fullName: ElseForty.splineplus.api.NodeAPI.Duplicate
+- uid: ElseForty.splineplus.api.NodeAPI.FlipHandles*
+  commentId: Overload:ElseForty.splineplus.api.NodeAPI.FlipHandles
+  href: ElseForty.splineplus.api.NodeAPI.FlipHandles.html#ElseForty_splineplus_api_NodeAPI_FlipHandles_SplinePlus_System_Int32_System_Int32_
+  name: FlipHandles
+  nameWithType: NodeAPI.FlipHandles
+  fullName: ElseForty.splineplus.api.NodeAPI.FlipHandles
+memberLayout: SeparatePages

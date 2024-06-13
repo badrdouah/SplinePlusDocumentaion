@@ -1,0 +1,23 @@
+apiRules:
+- include:
+    uidRegex: BranchAPI
+    type: Class
+- include:
+    uidRegex: NodeAPI
+    type: Class
+- include:
+    uidRegex: SplinePlusAPI
+    type: Class
+- include:
+    uidRegex: ProjectionAPI
+    type: Class
+- exclude:
+    uidRegex: .*
+    type: Class
+- exclude:
+    uidRegex: .*
+    type: Struct
+- exclude:
+    uidRegex: .*
+    type: Enum
+

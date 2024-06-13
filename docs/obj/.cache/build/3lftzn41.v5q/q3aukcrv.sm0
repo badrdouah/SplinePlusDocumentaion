@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class SplinePlusAPI
+ | Spline Plus documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class SplinePlusAPI
+ | Spline Plus documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ElseForty.splineplus.api.SplinePlusAPI">
+
+
+  <h1 id="ElseForty_Splineplus_API_SplinePlusAPI" data-uid="ElseForty.splineplus.api.SplinePlusAPI" class="text-break">Class SplinePlusAPI
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">SplinePlusAPI</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">ElseForty</span>.<span class="xref">Splineplus</span>.<a class="xref" href="ElseForty.splineplus.api.html">API</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="ElseForty_Splineplus_API_SplinePlusAPI_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SplinePlusAPI</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_AddModifier_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.AddModifier*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_AddModifier_SplinePlus_System_String_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.AddModifier(SplinePlus,System.String)">AddModifier(SplinePlus, string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Adds a modifier component to the SplinePlus object based on the provided modifier name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type AddModifier(SplinePlus splinePlus, string modifierName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object to which the modifier component will be added.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">modifierName</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The name of the modifier component to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">The Type object representing the added modifier component, or null if the modifier component cannot be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Deserialize_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Deserialize*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Deserialize_SplinePlus_System_String_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus,System.String)">Deserialize(SplinePlus, string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Deserializes the data from a file and creates a SplinePlus object from it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deserialize(SplinePlus splinePlus, string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The path to the file containing the serialized data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_FindClosestIndexOnBranch_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.FindClosestIndexOnBranch*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_FindClosestIndexOnBranch_System_Collections_Generic_List_System_Single__System_Single_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.FindClosestIndexOnBranch(System.Collections.Generic.List{System.Single},System.Single)">FindClosestIndexOnBranch(List&lt;float&gt;, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Finds the index of the closest distance in a list of distances to a target distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int FindClosestIndexOnBranch(List&lt;float&gt; distances, float targetDist)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</td>
+        <td><span class="parametername">distances</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The list of distances along a branch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">targetDist</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The target distance for which to find the closest index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">The index of the closest distance in the list to the target distance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Get_Branches_Count_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_Branches_Count*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Get_Branches_Count_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_Branches_Count(SplinePlus)">Get_Branches_Count(SplinePlus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Get_Branches_Count(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Get_Nodes_Count_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes_Count*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Get_Nodes_Count_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes_Count(SplinePlus)">Get_Nodes_Count(SplinePlus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Get_Nodes_Count(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Get_SharedNodes_Count_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_SharedNodes_Count*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Get_SharedNodes_Count_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_SharedNodes_Count(SplinePlus)">Get_SharedNodes_Count(SplinePlus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Get_SharedNodes_Count(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Get_SplineTransform_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Get_SplineTransform_SplinePlus_ElseForty_Splineplus_Models_BranchModel_System_Single_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,ElseForty.splineplus.models.BranchModel,System.Single)">Get_SplineTransform(SplinePlus, BranchModel, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Calculates the transformation (position and rotation) along a branch of a SplinePlus object at a specified distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SplineTransformModel Get_SplineTransform(SplinePlus splinePlus, BranchModel branch, float targetDist = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object containing the branch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ElseForty.splineplus.models.BranchModel</span></td>
+        <td><span class="parametername">branch</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The branch for which to calculate the transformation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">targetDist</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The target distance along the branch at which to calculate the transformation. Default is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ElseForty.splineplus.models.SplineTransformModel</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">A SplineTransformModel object containing the calculated position and rotation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Merge_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Merge*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Merge_SplinePlus_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus,SplinePlus)">Merge(SplinePlus, SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Merges the branches and nodes of an external SplinePlus object into a source SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Merge(SplinePlus source, SplinePlus target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Serializable_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Serializable*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Serializable_System_String_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Serializable(System.String,SplinePlus)">Serializable(string, SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Serializes the data of a SplinePlus object and saves it to a file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Serializable(string path, SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The path where the serialized data will be saved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object whose data will be serialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Create_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Create*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Create_Vector3_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Create(Vector3)">SplinePlus_Create(Vector3)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Creates a new SplinePlus object at the specified position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SplinePlus SplinePlus_Create(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The position at which the new SplinePlus object will be created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">The newly created SplinePlus object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_All_Nodes_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_All_Nodes*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_All_Nodes_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_All_Nodes(SplinePlus)">SplinePlus_Get_All_Nodes(SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Retrieves all nodes in a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;NodeModel&gt; SplinePlus_Get_All_Nodes(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object from which to retrieve nodes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">ElseForty.splineplus.models.NodeModel</span>&gt;</td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">A list of NodeModel objects representing all nodes in the specified SplinePlus object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_All_Shared_Nodes_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_All_Shared_Nodes*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_All_Shared_Nodes_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_All_Shared_Nodes(SplinePlus)">SplinePlus_Get_All_Shared_Nodes(SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Retrieves all shared nodes in a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;NodeModel&gt; SplinePlus_Get_All_Shared_Nodes(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object from which to retrieve shared nodes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">ElseForty.splineplus.models.NodeModel</span>&gt;</td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">A list of NodeModel objects representing all shared nodes in the specified SplinePlus object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_Branches_List_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_Branches_List*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_Branches_List_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_Branches_List(SplinePlus)">SplinePlus_Get_Branches_List(SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Retrieves a dictionary containing the branches of a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, BranchModel&gt; SplinePlus_Get_Branches_List(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object from which to retrieve the branches.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <span class="xref">ElseForty.splineplus.models.BranchModel</span>&gt;</td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">A dictionary where the keys represent the branch keys and the values represent the corresponding BranchModel objects.
+Returns null if the input SplinePlus object is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_Reference_Axis_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_Reference_Axis*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_Reference_Axis_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_Reference_Axis(SplinePlus)">SplinePlus_Get_Reference_Axis(SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Retrieves the reference axis of a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RefAxis_Enum SplinePlus_Get_Reference_Axis(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object from which to retrieve the reference axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ElseForty.splineplus.models.RefAxis_Enum</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">The reference axis of the specified SplinePlus object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_Smoothness_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_Smoothness*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Get_Smoothness_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Get_Smoothness(SplinePlus)">SplinePlus_Get_Smoothness(SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Retrieves the smoothness value of a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SplinePlus_Get_Smoothness(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object from which to retrieve the smoothness value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">The smoothness value of the specified SplinePlus object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Set_Reference_Axis_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Set_Reference_Axis*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Set_Reference_Axis_SplinePlus_ElseForty_Splineplus_Models_RefAxis_Enum_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Set_Reference_Axis(SplinePlus,ElseForty.splineplus.models.RefAxis_Enum)">SplinePlus_Set_Reference_Axis(SplinePlus, RefAxis_Enum)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Sets the reference axis for a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplinePlus_Set_Reference_Axis(SplinePlus splinePlus, RefAxis_Enum axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object for which to set the reference axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ElseForty.splineplus.models.RefAxis_Enum</span></td>
+        <td><span class="parametername">axis</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The new reference axis to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Set_Smoothness_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Set_Smoothness*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Set_Smoothness_SplinePlus_System_Int32_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Set_Smoothness(SplinePlus,System.Int32)">SplinePlus_Set_Smoothness(SplinePlus, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Sets the smoothness value for a SplinePlus object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplinePlus_Set_Smoothness(SplinePlus splinePlus, int smoothness)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object for which to set the smoothness value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">smoothness</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The new smoothness value to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_SnapToGrid_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_SnapToGrid*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_SnapToGrid_SplinePlus_Camera_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_SnapToGrid(SplinePlus,Camera)">SplinePlus_SnapToGrid(SplinePlus, Camera)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Snaps the nodes of a SplinePlus object to a grid based on the camera orientation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplinePlus_SnapToGrid(SplinePlus splinePlus, Camera cam)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object whose nodes will be snapped to the grid.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Camera</span></td>
+        <td><span class="parametername">cam</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The camera used to determine the grid orientation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Weld_Nodes_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Weld_Nodes*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_SplinePlus_Weld_Nodes_SplinePlus_System_Single_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.SplinePlus_Weld_Nodes(SplinePlus,System.Single)">SplinePlus_Weld_Nodes(SplinePlus, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Welds nodes in a SplinePlus object that are close to each other within a specified distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplinePlus_Weld_Nodes(SplinePlus splinePlus, float weldDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object containing the nodes to be welded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">weldDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Update_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Update*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Update_SplinePlus_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)">Update(SplinePlus)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Updates the SplinePlus object by updating each branch and invoking the SplinePlusUpdate event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Update(SplinePlus splinePlus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SplinePlus</span></td>
+        <td><span class="parametername">splinePlus</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The SplinePlus object to be updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ElseForty_Splineplus_API_SplinePlusAPI_Vector2_Rotate_Around_Pivot_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Vector2_Rotate_Around_Pivot*"></a>
+  <h4 id="ElseForty_Splineplus_API_SplinePlusAPI_Vector2_Rotate_Around_Pivot_Vector2_System_Single_" data-uid="ElseForty.splineplus.api.SplinePlusAPI.Vector2_Rotate_Around_Pivot(Vector2,System.Single)">Vector2_Rotate_Around_Pivot(Vector2, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">Rotates a 2D vector around the origin (0,0) by a specified angle in degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Vector2_Rotate_Around_Pivot(Vector2 aHandle, float aDegree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">aHandle</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The 2D vector to rotate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">aDegree</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="1">The angle in degrees by which to rotate the vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><p sourcefile="api/ElseForty.splineplus.api.SplinePlusAPI.yml" sourcestartlinenumber="2">The rotated 2D vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Spline Plus documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

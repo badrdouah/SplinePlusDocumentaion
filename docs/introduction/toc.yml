@@ -1,0 +1,8 @@
+- name: Instalation
+  href: Instalation.md
+- name: Get Started
+  href: GetStarted.md
+- name: Notions
+  href: Notions.md
+- name: Draw Your First Spline
+  href: DrawYourFirstSpline.md

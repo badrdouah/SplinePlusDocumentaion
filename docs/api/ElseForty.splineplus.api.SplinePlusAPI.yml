@@ -1,0 +1,1249 @@
+### YamlMime:ManagedReference
+items:
+- uid: ElseForty.splineplus.api.SplinePlusAPI
+  commentId: T:ElseForty.splineplus.api.SplinePlusAPI
+  id: SplinePlusAPI
+  parent: ElseForty.splineplus.api
+  children:
+  - ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  - ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus,System.String)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,BranchModel,System.Single)
+  - ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,System.Int32,System.Single)
+  - ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus,SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus,System.Int32)
+  - ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus,NodeModel)
+  - ElseForty.splineplus.api.SplinePlusAPI.Serializable(System.String,SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus,RefAxis_Enum)
+  - ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus,System.Int32)
+  - ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus,Camera)
+  - ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  - ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: SplinePlusAPI
+  nameWithType: SplinePlusAPI
+  fullName: ElseForty.splineplus.api.SplinePlusAPI
+  type: Class
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: SplinePlusAPI
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 20
+  namespace: ElseForty.splineplus.api
+  summary: >-
+    Provides a set of methods for manipulating and interacting with SplinePlus objects,
+
+    including adding modifiers, updating, creating, retrieving branches and nodes, setting smoothness
+
+    and reference axis, welding nodes, serializing, and deserializing data.
+  example: []
+  syntax:
+    content: public class SplinePlusAPI
+    content.vb: Public Class SplinePlusAPI
+  inheritance:
+  - System.Object
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  id: Update(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Update(SplinePlus)
+  nameWithType: SplinePlusAPI.Update(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Update(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Update
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 30
+  namespace: ElseForty.splineplus.api
+  summary: Updates the SplinePlus object by updating each branch and invoking the SplinePlusUpdate event.
+  example: []
+  syntax:
+    content: public static void Update(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object to be updated.
+    content.vb: Public Shared Sub Update(splinePlus As SplinePlus)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Update*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  id: Create(Vector3)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Create(Vector3)
+  nameWithType: SplinePlusAPI.Create(Vector3)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Create(Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Create
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 52
+  namespace: ElseForty.splineplus.api
+  summary: Creates a new SplinePlus object at the specified position.
+  example: []
+  syntax:
+    content: public static SplinePlus Create(Vector3 position)
+    parameters:
+    - id: position
+      type: Global.Vector3
+      description: The position at which the new SplinePlus object will be created.
+    return:
+      type: Global.SplinePlus
+      description: The newly created SplinePlus object.
+    content.vb: Public Shared Function Create(position As Vector3) As SplinePlus
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Create*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  id: Get_Branches(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Branches(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Branches(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Branches
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 70
+  namespace: ElseForty.splineplus.api
+  summary: Retrieves a dictionary containing the branches of a SplinePlus object.
+  example: []
+  syntax:
+    content: public static Dictionary<int, BranchModel> Get_Branches(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object from which to retrieve the branches.
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,BranchModel}
+      description: >-
+        A dictionary where the keys represent the branch keys and the values represent the corresponding BranchModel objects.
+
+        Returns null if the input SplinePlus object is null.
+    content.vb: Public Shared Function Get_Branches(splinePlus As SplinePlus) As Dictionary(Of Integer, BranchModel)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus,System.Int32)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus,System.Int32)
+  id: Set_Smoothness(SplinePlus,System.Int32)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_Smoothness(SplinePlus, int)
+  nameWithType: SplinePlusAPI.Set_Smoothness(SplinePlus, int)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_Smoothness
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 81
+  namespace: ElseForty.splineplus.api
+  summary: Sets the smoothness value for a SplinePlus object.
+  example: []
+  syntax:
+    content: public static void Set_Smoothness(SplinePlus splinePlus, int smoothness)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object for which to set the smoothness value.
+    - id: smoothness
+      type: System.Int32
+      description: The new smoothness value to set.
+    content.vb: Public Shared Sub Set_Smoothness(splinePlus As SplinePlus, smoothness As Integer)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness*
+  nameWithType.vb: SplinePlusAPI.Set_Smoothness(SplinePlus, Integer)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness(SplinePlus, Integer)
+  name.vb: Set_Smoothness(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  id: Get_Smoothness(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Smoothness(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Smoothness(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Smoothness
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 94
+  namespace: ElseForty.splineplus.api
+  summary: Retrieves the smoothness value of a SplinePlus object.
+  example: []
+  syntax:
+    content: public static int Get_Smoothness(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object from which to retrieve the smoothness value.
+    return:
+      type: System.Int32
+      description: The smoothness value of the specified SplinePlus object.
+    content.vb: Public Shared Function Get_Smoothness(splinePlus As SplinePlus) As Integer
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus,RefAxis_Enum)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus,RefAxis_Enum)
+  id: Set_Reference_Axis(SplinePlus,RefAxis_Enum)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Set_Reference_Axis(SplinePlus, RefAxis_Enum)
+  nameWithType: SplinePlusAPI.Set_Reference_Axis(SplinePlus, RefAxis_Enum)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis(SplinePlus, RefAxis_Enum)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Set_Reference_Axis
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 105
+  namespace: ElseForty.splineplus.api
+  summary: Sets the reference axis for a SplinePlus object.
+  example: []
+  syntax:
+    content: public static void Set_Reference_Axis(SplinePlus splinePlus, RefAxis_Enum axis)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object for which to set the reference axis.
+    - id: axis
+      type: Global.RefAxis_Enum
+      description: The new reference axis to set.
+    content.vb: Public Shared Sub Set_Reference_Axis(splinePlus As SplinePlus, axis As RefAxis_Enum)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  id: Get_Reference_Axis(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Reference_Axis(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Reference_Axis
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 118
+  namespace: ElseForty.splineplus.api
+  summary: Retrieves the reference axis of a SplinePlus object.
+  example: []
+  syntax:
+    content: public static RefAxis_Enum Get_Reference_Axis(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object from which to retrieve the reference axis.
+    return:
+      type: Global.RefAxis_Enum
+      description: The reference axis of the specified SplinePlus object.
+    content.vb: Public Shared Function Get_Reference_Axis(splinePlus As SplinePlus) As RefAxis_Enum
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  id: Get_Shared_Nodes(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Shared_Nodes(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Shared_Nodes
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 131
+  namespace: ElseForty.splineplus.api
+  summary: Retrieves all shared nodes in a SplinePlus object.
+  example: []
+  syntax:
+    content: public static List<NodeModel> Get_Shared_Nodes(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object from which to retrieve shared nodes.
+    return:
+      type: System.Collections.Generic.List{NodeModel}
+      description: A list of NodeModel objects representing all shared nodes in the specified SplinePlus object.
+    content.vb: Public Shared Function Get_Shared_Nodes(splinePlus As SplinePlus) As List(Of NodeModel)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  id: Get_Nodes(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Nodes(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Nodes(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Nodes
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 164
+  namespace: ElseForty.splineplus.api
+  summary: Retrieves all nodes in a SplinePlus object.
+  example: []
+  syntax:
+    content: public static List<NodeModel> Get_Nodes(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object from which to retrieve nodes.
+    return:
+      type: System.Collections.Generic.List{NodeModel}
+      description: A list of NodeModel objects representing all nodes in the specified SplinePlus object.
+    content.vb: Public Shared Function Get_Nodes(splinePlus As SplinePlus) As List(Of NodeModel)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus,System.Single)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus,System.Single)
+  id: Weld(SplinePlus,System.Single)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Weld(SplinePlus, float)
+  nameWithType: SplinePlusAPI.Weld(SplinePlus, float)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Weld
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 195
+  namespace: ElseForty.splineplus.api
+  summary: Welds nodes in a SplinePlus object that are close to each other within a specified distance.
+  example: []
+  syntax:
+    content: public static void Weld(SplinePlus splinePlus, float weldDistance)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the nodes to be welded.
+    - id: weldDistance
+      type: System.Single
+    content.vb: Public Shared Sub Weld(splinePlus As SplinePlus, weldDistance As Single)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Weld*
+  nameWithType.vb: SplinePlusAPI.Weld(SplinePlus, Single)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Weld(SplinePlus, Single)
+  name.vb: Weld(SplinePlus, Single)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus,Camera)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus,Camera)
+  id: SnapToGrid(SplinePlus,Camera)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: SnapToGrid(SplinePlus, Camera)
+  nameWithType: SplinePlusAPI.SnapToGrid(SplinePlus, Camera)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid(SplinePlus, Camera)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: SnapToGrid
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 241
+  namespace: ElseForty.splineplus.api
+  summary: Snaps the nodes of a SplinePlus object to a grid based on the camera orientation.
+  example: []
+  syntax:
+    content: public static void SnapToGrid(SplinePlus splinePlus, Camera cam)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object whose nodes will be snapped to the grid.
+    - id: cam
+      type: Global.Camera
+      description: The camera used to determine the grid orientation.
+    content.vb: Public Shared Sub SnapToGrid(splinePlus As SplinePlus, cam As Camera)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Serializable(System.String,SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Serializable(System.String,SplinePlus)
+  id: Serializable(System.String,SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Serializable(string, SplinePlus)
+  nameWithType: SplinePlusAPI.Serializable(string, SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Serializable(string, SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Serializable
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 294
+  namespace: ElseForty.splineplus.api
+  summary: Serializes the data of a SplinePlus object and saves it to a file.
+  example: []
+  syntax:
+    content: public static void Serializable(string path, SplinePlus splinePlus)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path where the serialized data will be saved.
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object whose data will be serialized.
+    content.vb: Public Shared Sub Serializable(path As String, splinePlus As SplinePlus)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Serializable*
+  nameWithType.vb: SplinePlusAPI.Serializable(String, SplinePlus)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Serializable(String, SplinePlus)
+  name.vb: Serializable(String, SplinePlus)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus,System.String)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus,System.String)
+  id: Deserialize(SplinePlus,System.String)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SplinePlus, string)
+  nameWithType: SplinePlusAPI.Deserialize(SplinePlus, string)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Deserialize
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 353
+  namespace: ElseForty.splineplus.api
+  summary: Deserializes the spline data from the specified file path and applies it to the given SplinePlus object.
+  example: []
+  syntax:
+    content: public static void Deserialize(SplinePlus splinePlus, string path)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object to deserialize the data into.
+    - id: path
+      type: System.String
+      description: The file path containing the serialized spline data.
+    content.vb: Public Shared Sub Deserialize(splinePlus As SplinePlus, path As String)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Deserialize*
+  nameWithType.vb: SplinePlusAPI.Deserialize(SplinePlus, String)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Deserialize(SplinePlus, String)
+  name.vb: Deserialize(SplinePlus, String)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus,NodeModel)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus,NodeModel)
+  id: Select_Node(SplinePlus,NodeModel)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Select_Node(SplinePlus, NodeModel)
+  nameWithType: SplinePlusAPI.Select_Node(SplinePlus, NodeModel)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Node(SplinePlus, NodeModel)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Select_Node
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 562
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static void Select_Node(SplinePlus splinePlus, NodeModel node)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    - id: node
+      type: Global.NodeModel
+    content.vb: Public Shared Sub Select_Node(splinePlus As SplinePlus, node As NodeModel)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Select_Node*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  id: Get_Selected_Branch(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Selected_Branch(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Selected_Branch
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 581
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static int Get_Selected_Branch(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Get_Selected_Branch(splinePlus As SplinePlus) As Integer
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus,System.Int32)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus,System.Int32)
+  id: Select_Branch(SplinePlus,System.Int32)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Select_Branch(SplinePlus, int)
+  nameWithType: SplinePlusAPI.Select_Branch(SplinePlus, int)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Select_Branch
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 596
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static void Select_Branch(SplinePlus splinePlus, int branchKey)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    - id: branchKey
+      type: System.Int32
+    content.vb: Public Shared Sub Select_Branch(splinePlus As SplinePlus, branchKey As Integer)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch*
+  nameWithType.vb: SplinePlusAPI.Select_Branch(SplinePlus, Integer)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch(SplinePlus, Integer)
+  name.vb: Select_Branch(SplinePlus, Integer)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  id: Clear_Selection(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Clear_Selection(SplinePlus)
+  nameWithType: SplinePlusAPI.Clear_Selection(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Clear_Selection
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 605
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static void Clear_Selection(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    content.vb: Public Shared Sub Clear_Selection(splinePlus As SplinePlus)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus,SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus,SplinePlus)
+  id: Merge(SplinePlus,SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Merge(SplinePlus, SplinePlus)
+  nameWithType: SplinePlusAPI.Merge(SplinePlus, SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Merge(SplinePlus, SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Merge
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 654
+  namespace: ElseForty.splineplus.api
+  summary: Merges the spline branches from the source SplinePlus object into the target SplinePlus object.
+  example: []
+  syntax:
+    content: public static void Merge(SplinePlus source, SplinePlus target)
+    parameters:
+    - id: source
+      type: Global.SplinePlus
+      description: The source SplinePlus object from which to merge spline branches.
+    - id: target
+      type: Global.SplinePlus
+      description: The target SplinePlus object into which the spline branches will be merged.
+    content.vb: Public Shared Sub Merge(source As SplinePlus, target As SplinePlus)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Merge*
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,System.Int32,System.Single)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,System.Int32,System.Single)
+  id: Get_SplineTransform(SplinePlus,System.Int32,System.Single)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_SplineTransform(SplinePlus, int, float)
+  nameWithType: SplinePlusAPI.Get_SplineTransform(SplinePlus, int, float)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, int, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_SplineTransform
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 710
+  namespace: ElseForty.splineplus.api
+  summary: Calculates the transformation (position and rotation) along a branch of a SplinePlus object at a specified distance.
+  example: []
+  syntax:
+    content: public static SplineTransformModel Get_SplineTransform(SplinePlus splinePlus, int branchKey, float targetDist = 0)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus object containing the branch.
+    - id: branchKey
+      type: System.Int32
+      description: The branch key of the branch for which to calculate the transformation.
+    - id: targetDist
+      type: System.Single
+      description: The target distance along the branch at which to calculate the transformation. Default is 0.
+    return:
+      type: Global.SplineTransformModel
+      description: A SplineTransformModel object containing the calculated position and rotation.
+    content.vb: Public Shared Function Get_SplineTransform(splinePlus As SplinePlus, branchKey As Integer, targetDist As Single = 0) As SplineTransformModel
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform*
+  nameWithType.vb: SplinePlusAPI.Get_SplineTransform(SplinePlus, Integer, Single)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, Integer, Single)
+  name.vb: Get_SplineTransform(SplinePlus, Integer, Single)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,BranchModel,System.Single)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus,BranchModel,System.Single)
+  id: Get_SplineTransform(SplinePlus,BranchModel,System.Single)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_SplineTransform(SplinePlus, BranchModel, float)
+  nameWithType: SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, float)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_SplineTransform
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 760
+  namespace: ElseForty.splineplus.api
+  syntax:
+    content: public static SplineTransformModel Get_SplineTransform(SplinePlus splinePlus, BranchModel branch, float targetDist = 0)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+    - id: branch
+      type: Global.BranchModel
+    - id: targetDist
+      type: System.Single
+    return:
+      type: Global.SplineTransformModel
+    content.vb: Public Shared Function Get_SplineTransform(splinePlus As SplinePlus, branch As BranchModel, targetDist As Single = 0) As SplineTransformModel
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform*
+  nameWithType.vb: SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, Single)
+  fullName.vb: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform(SplinePlus, BranchModel, Single)
+  name.vb: Get_SplineTransform(SplinePlus, BranchModel, Single)
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  id: Get_Closest__To_MousePosition(SplinePlus)
+  parent: ElseForty.splineplus.api.SplinePlusAPI
+  langs:
+  - csharp
+  - vb
+  name: Get_Closest__To_MousePosition(SplinePlus)
+  nameWithType: SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition(SplinePlus)
+  type: Method
+  source:
+    remote:
+      path: Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+      branch: main
+      repo: https://github.com/badrdouah/SplinePlus.git
+    id: Get_Closest__To_MousePosition
+    path: ../Assets/Runtime/SplinePlus/API/SplinePlusAPI.cs
+    startLine: 815
+  namespace: ElseForty.splineplus.api
+  summary: Finds the closest spline  distance to the current mouse position on the screen.
+  example: []
+  syntax:
+    content: public static (float closestDistanceOnBranch, int closestBranchKey) Get_Closest__To_MousePosition(SplinePlus splinePlus)
+    parameters:
+    - id: splinePlus
+      type: Global.SplinePlus
+      description: The SplinePlus component that contains the branches and vertices.
+    return:
+      type: System.ValueTuple{System.Single,System.Int32}
+      description: A tuple containing the closest branch distance of the closest vertex and the key of the closest branch.
+    content.vb: Public Shared Function Get_Closest__To_MousePosition(splinePlus As SplinePlus) As (closestDistanceOnBranch As Single, closestBranchKey As Integer)
+  overload: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition*
+references:
+- uid: ElseForty.splineplus.api
+  commentId: N:ElseForty.splineplus.api
+  href: ElseForty.html
+  name: ElseForty.splineplus.api
+  nameWithType: ElseForty.splineplus.api
+  fullName: ElseForty.splineplus.api
+  spec.csharp:
+  - uid: ElseForty
+    name: ElseForty
+    href: ElseForty.html
+  - name: .
+  - uid: ElseForty.splineplus
+    name: splineplus
+    href: ElseForty.splineplus.html
+  - name: .
+  - uid: ElseForty.splineplus.api
+    name: api
+    href: ElseForty.splineplus.api.html
+  spec.vb:
+  - uid: ElseForty
+    name: ElseForty
+    href: ElseForty.html
+  - name: .
+  - uid: ElseForty.splineplus
+    name: splineplus
+    href: ElseForty.splineplus.html
+  - name: .
+  - uid: ElseForty.splineplus.api
+    name: api
+    href: ElseForty.splineplus.api.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Update*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Update
+  href: ElseForty.splineplus.api.SplinePlusAPI.Update.html#ElseForty_splineplus_api_SplinePlusAPI_Update_SplinePlus_
+  name: Update
+  nameWithType: SplinePlusAPI.Update
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Update
+- uid: Global.SplinePlus
+  isExternal: true
+  name: SplinePlus
+  nameWithType: SplinePlus
+  fullName: SplinePlus
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Create*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Create
+  href: ElseForty.splineplus.api.SplinePlusAPI.Create.html#ElseForty_splineplus_api_SplinePlusAPI_Create_Vector3_
+  name: Create
+  nameWithType: SplinePlusAPI.Create
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Create
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Branches
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Branches_SplinePlus_
+  name: Get_Branches
+  nameWithType: SplinePlusAPI.Get_Branches
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Branches
+- uid: System.Collections.Generic.Dictionary{System.Int32,BranchModel}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,BranchModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<int, BranchModel>
+  nameWithType: Dictionary<int, BranchModel>
+  fullName: System.Collections.Generic.Dictionary<int, BranchModel>
+  nameWithType.vb: Dictionary(Of Integer, BranchModel)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Integer, BranchModel)
+  name.vb: Dictionary(Of Integer, BranchModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Global.BranchModel
+    name: BranchModel
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Global.BranchModel
+    name: BranchModel
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness
+  href: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness.html#ElseForty_splineplus_api_SplinePlusAPI_Set_Smoothness_SplinePlus_System_Int32_
+  name: Set_Smoothness
+  nameWithType: SplinePlusAPI.Set_Smoothness
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Smoothness_SplinePlus_
+  name: Get_Smoothness
+  nameWithType: SplinePlusAPI.Get_Smoothness
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis
+  href: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis.html#ElseForty_splineplus_api_SplinePlusAPI_Set_Reference_Axis_SplinePlus_RefAxis_Enum_
+  name: Set_Reference_Axis
+  nameWithType: SplinePlusAPI.Set_Reference_Axis
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis
+- uid: Global.RefAxis_Enum
+  isExternal: true
+  name: RefAxis_Enum
+  nameWithType: RefAxis_Enum
+  fullName: RefAxis_Enum
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Reference_Axis_SplinePlus_
+  name: Get_Reference_Axis
+  nameWithType: SplinePlusAPI.Get_Reference_Axis
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Shared_Nodes_SplinePlus_
+  name: Get_Shared_Nodes
+  nameWithType: SplinePlusAPI.Get_Shared_Nodes
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes
+- uid: System.Collections.Generic.List{NodeModel}
+  commentId: T:System.Collections.Generic.List{NodeModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<NodeModel>
+  nameWithType: List<NodeModel>
+  fullName: System.Collections.Generic.List<NodeModel>
+  nameWithType.vb: List(Of NodeModel)
+  fullName.vb: System.Collections.Generic.List(Of NodeModel)
+  name.vb: List(Of NodeModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Global.NodeModel
+    name: NodeModel
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.NodeModel
+    name: NodeModel
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Nodes_SplinePlus_
+  name: Get_Nodes
+  nameWithType: SplinePlusAPI.Get_Nodes
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Weld*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Weld
+  href: ElseForty.splineplus.api.SplinePlusAPI.Weld.html#ElseForty_splineplus_api_SplinePlusAPI_Weld_SplinePlus_System_Single_
+  name: Weld
+  nameWithType: SplinePlusAPI.Weld
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Weld
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid
+  href: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid.html#ElseForty_splineplus_api_SplinePlusAPI_SnapToGrid_SplinePlus_Camera_
+  name: SnapToGrid
+  nameWithType: SplinePlusAPI.SnapToGrid
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid
+- uid: Global.Camera
+  commentId: '!:Global.Camera'
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Serializable*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Serializable
+  href: ElseForty.splineplus.api.SplinePlusAPI.Serializable.html#ElseForty_splineplus_api_SplinePlusAPI_Serializable_System_String_SplinePlus_
+  name: Serializable
+  nameWithType: SplinePlusAPI.Serializable
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Serializable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Deserialize*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Deserialize
+  href: ElseForty.splineplus.api.SplinePlusAPI.Deserialize.html#ElseForty_splineplus_api_SplinePlusAPI_Deserialize_SplinePlus_System_String_
+  name: Deserialize
+  nameWithType: SplinePlusAPI.Deserialize
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Deserialize
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Node*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Select_Node
+  href: ElseForty.splineplus.api.SplinePlusAPI.Select_Node.html#ElseForty_splineplus_api_SplinePlusAPI_Select_Node_SplinePlus_NodeModel_
+  name: Select_Node
+  nameWithType: SplinePlusAPI.Select_Node
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Node
+- uid: Global.NodeModel
+  isExternal: true
+  name: NodeModel
+  nameWithType: NodeModel
+  fullName: NodeModel
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Selected_Branch_SplinePlus_
+  name: Get_Selected_Branch
+  nameWithType: SplinePlusAPI.Get_Selected_Branch
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Select_Branch
+  href: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch.html#ElseForty_splineplus_api_SplinePlusAPI_Select_Branch_SplinePlus_System_Int32_
+  name: Select_Branch
+  nameWithType: SplinePlusAPI.Select_Branch
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Select_Branch
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection
+  href: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection.html#ElseForty_splineplus_api_SplinePlusAPI_Clear_Selection_SplinePlus_
+  name: Clear_Selection
+  nameWithType: SplinePlusAPI.Clear_Selection
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Merge*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Merge
+  href: ElseForty.splineplus.api.SplinePlusAPI.Merge.html#ElseForty_splineplus_api_SplinePlusAPI_Merge_SplinePlus_SplinePlus_
+  name: Merge
+  nameWithType: SplinePlusAPI.Merge
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Merge
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform.html#ElseForty_splineplus_api_SplinePlusAPI_Get_SplineTransform_SplinePlus_System_Int32_System_Single_
+  name: Get_SplineTransform
+  nameWithType: SplinePlusAPI.Get_SplineTransform
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform
+- uid: Global.SplineTransformModel
+  isExternal: true
+  name: SplineTransformModel
+  nameWithType: SplineTransformModel
+  fullName: SplineTransformModel
+- uid: Global.BranchModel
+  isExternal: true
+  name: BranchModel
+  nameWithType: BranchModel
+  fullName: BranchModel
+- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition*
+  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition
+  href: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Closest__To_MousePosition_SplinePlus_
+  name: Get_Closest__To_MousePosition
+  nameWithType: SplinePlusAPI.Get_Closest__To_MousePosition
+  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition
+- uid: System.ValueTuple{System.Single,System.Int32}
+  commentId: T:System.ValueTuple{System.Single,System.Int32}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: (float closestDistanceOnBranch, int closestBranchKey)
+  nameWithType: (float closestDistanceOnBranch, int closestBranchKey)
+  fullName: (float closestDistanceOnBranch, int closestBranchKey)
+  nameWithType.vb: (closestDistanceOnBranch As Single, closestBranchKey As Integer)
+  fullName.vb: (closestDistanceOnBranch As Single, closestBranchKey As Integer)
+  name.vb: (closestDistanceOnBranch As Single, closestBranchKey As Integer)
+  spec.csharp:
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: " "
+  - uid: System.ValueTuple{System.Single,System.Int32}.closestDistanceOnBranch
+    name: closestDistanceOnBranch
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.int32-.closestdistanceonbranch
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Single,System.Int32}.closestBranchKey
+    name: closestBranchKey
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.int32-.closestbranchkey
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Single,System.Int32}.closestDistanceOnBranch
+    name: closestDistanceOnBranch
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.int32-.closestdistanceonbranch
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Single,System.Int32}.closestBranchKey
+    name: closestBranchKey
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.int32-.closestbranchkey
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+memberLayout: SeparatePages
