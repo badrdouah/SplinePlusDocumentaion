@@ -2,7 +2,6 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
         "changefreq": "daily"
       }
     },
@@ -285,263 +284,63 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.events.models.EventFork_Enum.yml",
+      "source_relative_path": "test/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.modifiers.events.models.EventFork_Enum.html"
+          "relative_path": "test/ElseForty.splineplus.api.BranchAPI.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.events.models.yml",
+      "source_relative_path": "test/ElseForty.splineplus.api.NodeAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.modifiers.events.models.html"
+          "relative_path": "test/ElseForty.splineplus.api.NodeAPI.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.models.Axes_Enum.yml",
+      "source_relative_path": "test/ElseForty.splineplus.api.ProjectionAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.modifiers.models.Axes_Enum.html"
+          "relative_path": "test/ElseForty.splineplus.api.ProjectionAPI.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.models.DeformationProcessing_Enum.yml",
+      "source_relative_path": "test/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.modifiers.models.DeformationProcessing_Enum.html"
+          "relative_path": "test/ElseForty.splineplus.api.SplinePlusAPI.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.models.DeformationType_Enum.yml",
+      "source_relative_path": "test/ElseForty.splineplus.api.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.modifiers.models.DeformationType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.models.MirrorAxes_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.modifiers.models.MirrorAxes_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.models.ScaleType_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.modifiers.models.ScaleType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.modifiers.models.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.modifiers.models.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.animation.models.AnimationType_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.animation.models.AnimationType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.animation.models.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.animation.models.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.BranchDirection_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.BranchDirection_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.HandleType_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.HandleType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.NodeType_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.NodeType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.ProjectionType_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.ProjectionType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.RefAxis_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.RefAxis_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.SpaceType_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.SpaceType_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.User_Actions_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.User_Actions_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.models.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.models.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.SearchDirection_Enum.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.SearchDirection_Enum.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.html"
+          "relative_path": "test/ElseForty.splineplus.api.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "api/toc.yml",
+      "source_relative_path": "test/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html"
+          "relative_path": "test/toc.html"
         },
         ".json": {
-          "relative_path": "api/toc.json"
+          "relative_path": "test/toc.json"
         }
       },
       "version": ""
