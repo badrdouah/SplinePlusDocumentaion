@@ -225,87 +225,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Direction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Set_Direction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Vertices.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Length.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Merge.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Tangents.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Normals.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Create.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.BreakAt.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Nodes.html"
         }
       },
       "version": ""
@@ -335,7 +255,77 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Tangents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Length.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Vertices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Delete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.FlipHandles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.BreakAt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Add_Node_End.html"
         }
       },
       "version": ""
@@ -365,7 +355,17 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Update.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Normals.html"
         }
       },
       "version": ""
@@ -385,7 +385,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Add_Node_End.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Update.html"
         }
       },
       "version": ""
@@ -395,7 +395,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.FlipHandles.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Create.html"
         }
       },
       "version": ""
@@ -405,7 +405,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Nodes.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Merge.html"
         }
       },
       "version": ""
@@ -415,7 +415,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Delete.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Set_Direction.html"
         }
       },
       "version": ""
@@ -425,7 +425,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.BranchAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index.html"
+          "relative_path": "api/ElseForty.splineplus.api.BranchAPI.Get_Direction.html"
         }
       },
       "version": ""
@@ -435,107 +435,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Handle_Position.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Create_At_Distance.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Is_Shared.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Duplicate.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Chamfer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Create.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Position.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Collapse.html"
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Diffuse.html"
         }
       },
       "version": ""
@@ -555,7 +455,187 @@
       "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Diffuse.html"
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Normal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.FlipHandles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Duplicate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Collapse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Speed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Scale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Normal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Position.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Create_At_Distance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Scale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Chamfer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Handle_Position.html"
         }
       },
       "version": ""
@@ -595,7 +675,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Scale.html"
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position.html"
         }
       },
       "version": ""
@@ -605,87 +685,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Scale.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Update.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Speed.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.FlipHandles.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Normal.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Type.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Get_Type.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Set_Normal.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.NodeAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.html"
+          "relative_path": "api/ElseForty.splineplus.api.NodeAPI.Is_Shared.html"
         }
       },
       "version": ""
@@ -696,16 +696,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals.html"
         }
       },
       "version": ""
@@ -735,7 +725,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes.html"
+          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals.html"
         }
       },
       "version": ""
@@ -755,7 +745,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.html"
+          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Set_Offset.html"
         }
       },
       "version": ""
@@ -765,7 +755,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Set_Offset.html"
+          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Set_Projection.html"
         }
       },
       "version": ""
@@ -785,7 +775,57 @@
       "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Set_Projection.html"
+          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.ProjectionAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Deserialize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Select_Node.html"
         }
       },
       "version": ""
@@ -796,66 +836,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Merge.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Select_Branch.html"
         }
       },
       "version": ""
@@ -895,6 +875,26 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes.html"
         }
       },
@@ -905,37 +905,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Update.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Select_Node.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Deserialize.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Serializable.html"
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis.html"
         }
       },
       "version": ""
@@ -965,7 +935,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes.html"
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition.html"
         }
       },
       "version": ""
@@ -975,7 +945,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis.html"
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform.html"
         }
       },
       "version": ""
@@ -985,7 +955,7 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis.html"
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Merge.html"
         }
       },
       "version": ""
@@ -995,7 +965,37 @@
       "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Create.html"
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Select_Branch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Serializable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection.html"
         }
       },
       "version": ""
