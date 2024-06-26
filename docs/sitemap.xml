@@ -2,547 +2,547 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Animation/BasicFollowers/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Animation/GroupFollowers/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Animation/SplinePathFinding/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Mesh/ExtrudeMesh/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Mesh/MeshDeform/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Mesh/PlaneMesh/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/Modifiers/Mesh/TubeMesh/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/SplinePlusR/DrawYourFirstSpline.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/SplinePlusR/GetStarted.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/SplinePlusR/Instalation.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/SplinePlusR/Introduction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/SplinePlusR/Notions.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Add_Node_At_Index.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Add_Node_Beginning.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Add_Node_End.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Add_Nodes_At_Index.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.BreakAt.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Create.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Delete.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Diffuse.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.FlipHandles.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Get_Direction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Get_Length.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Get_Nodes.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Get_Normals.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Get_Tangents.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Get_Vertices.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.IsReversed.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Merge.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Selected.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Set_Direction.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.Update.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.BranchAPI.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Chamfer.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Collapse.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Compound.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Connect.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Create.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Create_At_Distance.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Delete.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Diffuse.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Duplicate.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.FlipHandles.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Connected_Branches.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Handle_1_Position.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Handle_2_Position.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Normal.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Position.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Scale.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Speed.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Get_Type.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Is_Shared.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Set_Handle_Position.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Set_Normal.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Set_Scale.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Set_TargetSpeed.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Set_Type.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.Update.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.NodeAPI.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Get_Offset.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Get_PreserveNormals.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Get_Projection.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Get_RaycastLength.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Project_BranchNodes.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Set_Offset.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Set_PreserveNormals.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Set_Projection.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.Set_RaycastLength.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.ProjectionAPI.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Clear_Selection.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Create.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Deserialize.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_Branches.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_Closest__To_MousePosition.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_Nodes.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_Smoothness.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Get_SplineTransform.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Merge.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Select_Branch.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Select_Node.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Serializable.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Set_Reference_Axis.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Set_Smoothness.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.SnapToGrid.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Update.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.Weld.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.SplinePlusAPI.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/api/ElseForty.splineplus.api.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/index.html</loc>
-    <lastmod>2024-06-26T02:03:29-05:00</lastmod>
+    <lastmod>2024-06-26T02:30:22-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
