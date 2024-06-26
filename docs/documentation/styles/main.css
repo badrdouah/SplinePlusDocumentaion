@@ -12,3 +12,6 @@ h6,
 .inheritance {
     display: none;
 }
+.rounded-image {
+    border-radius: 50px; /* Adjust the value to control the roundness */
+  }

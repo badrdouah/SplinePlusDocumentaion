@@ -868,18 +868,6 @@ references:
   commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis
   fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Reference_Axis
   nameWithType: SplinePlusAPI.Get_Reference_Axis
-- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
-  name: Get_Selected_Branch(SplinePlus)
-  href: api/ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Selected_Branch_SplinePlus_
-  commentId: M:ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
-  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch(SplinePlus)
-  nameWithType: SplinePlusAPI.Get_Selected_Branch(SplinePlus)
-- uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch*
-  name: Get_Selected_Branch
-  href: api/ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch.html
-  commentId: Overload:ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch
-  fullName: ElseForty.splineplus.api.SplinePlusAPI.Get_Selected_Branch
-  nameWithType: SplinePlusAPI.Get_Selected_Branch
 - uid: ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes(SplinePlus)
   name: Get_Shared_Nodes(SplinePlus)
   href: api/ElseForty.splineplus.api.SplinePlusAPI.Get_Shared_Nodes.html#ElseForty_splineplus_api_SplinePlusAPI_Get_Shared_Nodes_SplinePlus_
