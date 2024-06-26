@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Introducing Spline Plus R for Unity 3D | Spline Plus documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Introducing Spline Plus R for Unity 3D | Spline Plus documentation ">
+    
+    
+      <link rel="shortcut icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../../styles/docfx.css">
+      <link rel="stylesheet" href="../../../styles/main.css">
+      <meta property="docfx:navrel" content="../../../toc.html">
+      <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../Images/Else40.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<div style="text-align: center;" class="rounded-image">
+    <img class="rounded-image" src="./Images/Banner.png" style="display: inline-block;">
+</div>
+<h1 id="introducing-spline-plus-r-for-unity-3d">Introducing Spline Plus R for Unity 3D</h1>
+<p>Welcome to the <strong>Spline Plus R</strong> documentation page, the revamped spline system built upon Spline Plus. This next-generation spline tool for Unity 3D offers massive improvements with a dynamic, modular, flexible, and performance-optimized core. Designed with user-friendliness in mind, Spline Plus R ensures flawless spline management within Unity3D.</p>
+<h2 id="whats-new-in-spline-plus-r">What's New in Spline Plus R</h2>
+<p>The new core system and design enhance your spline editing capabilities in Unity 3D, making the process more efficient and powerful. With an advanced selection system, you can easily manage multiple selections for nodes and branches, allowing for smooth operations and intricate edits. The intuitive user interface lets you access all features directly from the right-click options menu in the scene view, with shortcuts for quick navigation and a seamless workflow.</p>
+<p>The multiple branches system provides unparalleled flexibility and precision in managing multiple branches. Comprehensive node management allows you to effortlessly add, delete, connect, diffuse, break, and chamfer nodes. You can also control node normals, speed, and scale to fine-tune animations and mesh modifiers. The spline projection system enables you to project spline shapes onto 3D meshes with ease, opening up new possibilities for complex modeling.</p>
+<p>Enhanced API functions are available for developers, offering comprehensive reference material covering all aspects of the plugin's API. You can plug in a variety of modifiers to enhance your spline shapes with additional features.</p>
+<h2 id="animation-modifiers">Animation Modifiers</h2>
+<p>Discover the powerful animation modifiers powered by <strong>Spline Plus R</strong>, designed to create and manage follower animations on your spline branches in Unity 3D. These tools provide a comprehensive solution for dynamic and flexible animation workflows.</p>
+<p>Basic Followers allow you to control a single game object as a spline follower with access to various features for achieving desired animation results. Group Followers let you manage a set of basic follower game objects that act as one unit, perfect for applications like trains. An advanced events system lets you place events anywhere at a defined distance on any branch with a simple, powerful system.</p>
+<h2 id="mesh-modifiers">Mesh Modifiers</h2>
+<p>Explore the powerful mesh modifiers powered by <strong>Spline Plus R</strong>, designed to generate procedural meshes for your spline branches in Unity 3D. These tools provide a comprehensive solution for creating dynamic and flexible mesh structures.</p>
+<p>Mesh Deform lets you generate procedural meshes on your spline branches using custom meshes from 3D programs like 3ds Max or Blender. You can choose between Mesh Alignment Only or Alignment and Deformation Together along the spline branches. The system supports CPU Single/Multi-threaded and GPU processing for mesh deformation.</p>
+<p>Extrude Mesh allows you to extrude spline branches into 3D meshes, Plane Mesh transforms spline branches into 3D plane meshes. Tube Mesh transforms spline branches into 3D tube meshes.</p>
+<h2 id="spline-path-finding-new-modifier">Spline Path Finding (New Modifier)</h2>
+<p>The Spline Path Finding animation modifier is a new addition dedicated to pathfinding on splines. It helps you find the shortest path from an agent follower to a goal follower, with configurable search direction and collision radius.</p>
+<p>This new modifier is based on Basic Followers, so all features of Basic Followers transfer to Spline Path Finding. You have control over acceleration and deceleration, and you can use the advanced events system for placing events along the spline path.</p>
+<h2 id="feature-coverage-matrix">Feature Coverage Matrix</h2>
+<p>This table provides an overview of the features available and its associated tools and modifiers. Each check mark (✓) indicates the presence of the corresponding modifier in the specific tool or modifier.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Spline Plus R (Core)</th>
+<th>Basic Followers</th>
+<th>Group Followers</th>
+<th>Path Finding</th>
+<th>Mesh Deform</th>
+<th>Plane Mesh</th>
+<th>Tube Mesh</th>
+<th>Extrude Mesh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spline Plus R</td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spline Mesh Deform</td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td></td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+</tr>
+<tr>
+<td>Spline Path Finding</td>
+<td><div align="center">✓</div></td>
+<td><div align="center">✓</div></td>
+<td></td>
+<td><div align="center">✓</div></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/badrdouah/SplinePlus/blob/main/Documentation/Modifiers/Mesh/PlaneMesh/Introduction.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Spline Plus documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
