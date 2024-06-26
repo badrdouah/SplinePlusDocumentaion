@@ -1,9 +1,4 @@
 {
-  "Index.html": {
-    "href": "Index.html",
-    "title": "Welcome to Spline Plus R Documentation | Spline Plus documentation",
-    "keywords": "Welcome to Spline Plus R Documentation Welcome to the official Spline Plus R documentation. Here, you will find comprehensive resources to effectively integrate and utilize Spline Plus in your projects. Whether you are just starting out or seeking advanced techniques, this documentation provides step-by-step tutorials and detailed API references tailored to your needs. Spline Plus R Modifiers Animation Basic Followers Group Followers Spline Path Finding Mesh Mesh Deform Extrude Mesh Tube Mesh Plane Mesh"
-  },
   "Modifiers/Animation/BasicFollowers/Introduction.html": {
     "href": "Modifiers/Animation/BasicFollowers/Introduction.html",
     "title": "Introducing Spline Plus R for Unity 3D | Spline Plus documentation",
@@ -453,5 +448,10 @@
     "href": "api/ElseForty.splineplus.api.html",
     "title": "Namespace ElseForty.splineplus.api | Spline Plus documentation",
     "keywords": "Namespace ElseForty.splineplus.api Classes BranchAPI Provides methods for interacting with branches of a SplinePlus object. NodeAPI Provides methods for manipulating nodes in a SplinePlus object, including retrieving selected nodes, creating new nodes, updating node positions, setting node positions, and chamfering nodes. ProjectionAPI Provides methods for updating the positions of vertices and nodes along spline branches by raycasting onto surfaces below, retrieving and setting projection properties such as raycast length, offset, debug ray visibility, and preservation of normals. SplinePlusAPI Provides a set of methods for manipulating and interacting with SplinePlus objects, including adding modifiers, updating, creating, retrieving branches and nodes, setting smoothness and reference axis, welding nodes, serializing, and deserializing data."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Welcome to Spline Plus R Documentation | Spline Plus documentation",
+    "keywords": "Welcome to Spline Plus R Documentation Welcome to the official Spline Plus R documentation. Here, you will find comprehensive resources to effectively integrate and utilize Spline Plus in your projects. Whether you are just starting out or seeking advanced techniques, this documentation provides step-by-step tutorials and detailed API references tailored to your needs. Spline Plus R Modifiers Animation Basic Followers Group Followers Spline Path Finding Mesh Mesh Deform Extrude Mesh Tube Mesh Plane Mesh"
   }
 }
