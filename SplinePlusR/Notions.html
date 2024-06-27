@@ -80,32 +80,49 @@
 <h1 id="notions">Notions</h1>
 
 <h2 id="node">Node</h2>
-<p>Nodes are fundamental elements that form a branch in Spline Plus. They are visually represented in the scene view by spherical markers.</p>
+<p>Nodes are control points elements that form a branch in Spline Plus R. They are visually represented in the scene view by spherical markers.</p>
 <div>
     <img src="Images/Node.png" width="250px">
 </div>
 <br>
-<div class="TIP">
-<h5>Tip</h5>
-<p>Double-click on a node in your scene view to select it.</p>
-</div>
 <h2 id="branch">Branch</h2>
 <p>A branch is composed of nodes connected together. The selected branch is highlighted with a green color in the scene view.</p>
 <div>
     <img src="Images/Branch.png" width="350px">
 </div>
 <br>
-<div class="TIP">
-<h5>Tip</h5>
-<p>Double-click on a branch in your scene view to select it.</p>
-</div>
-<h2 id="shareddata-node">SharedData Node</h2>
-<p>A sharedData node is a special type of node that is sharedData by more than one branch. It is indicated by a purple sphere in your scene view.</p>
+<h2 id="shared-node">Shared Node</h2>
+<p>A shared node is a node that is shared by more than one branch. It is indicated by a purple spherical markers in your scene view.</p>
 <div>
-    <img src="./Images/SharedData.png" width="300px">
+    <img src="Images/SharedNode.png" width="200px">
 </div>
 <br>
  
+<h1 id="selection">Selection</h1>
+<p>Before selecting nodes or branches, ensure that the Unity 3D Move tool is not selected.</p>
+<div>
+    <img src="./Images/MoveTool.png" width="50px">
+</div>
+<br>
+  
+There are two selection modes: nodes selection and branches selection. You can switch between these modes from the scene view right-click items menu. For node selection mode, choose `Node` > `Select` , and for branch selection mode, choose `Branch` > `Select` .
+<p>There are two ways to select nodes in Spline Plus R. The first method is to click directly on a node. To select multiple nodes, hold the Ctrl key on your keyboard while clicking.</p>
+<div>
+    <img src="./Images/NodesSelection.gif" width="500px">
+</div>
+<br>
+<p>The second method is to use rectangular selection. Click and drag in your Unity 3D scene view to draw a rectangle; any nodes within this rectangle will be selected. To select multiple nodes using rectangular selection, hold the Ctrl key while dragging to include additional nodes in your selection.</p>
+<div>
+    <img src="./Images/NodesRectSelection.gif" width="500px">
+</div>
+<br>
+<div class="TIP">
+<h5>Tip</h5>
+<p>The same selection methods for nodes also apply to branches.</p>
+</div>
+<div>
+    <img src="./Images/BranchSelection.gif" width="500px">
+</div>
 
 </article>
           </div>
